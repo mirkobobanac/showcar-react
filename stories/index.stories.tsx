@@ -1,8 +1,16 @@
 import React from 'react'
 
-import { storiesOf } from '@storybook/react'
-import { action } from '@storybook/addon-actions'
-import { linkTo } from '@storybook/addon-links'
+import { storiesOf, addDecorator } from '@storybook/react'
+import { withInfo } from '@storybook/addon-info'
 import Button from '../src/components/button/Button'
 
-storiesOf('Button', module).add('with text', () => <Button type="ross">Some Button</Button>)
+// addDecorator(withInfo({ inline: true }))
+
+storiesOf('Button', module).add('with different styles', () => (
+  <div>
+    <Button type="ross">Ross</Button> &nbsp;
+    <Button type="bob">Bob</Button> &nbsp;
+    <Button type="ghost">Ghost</Button> &nbsp;
+    <Button type="marketing">Marketing</Button>
+  </div>
+))

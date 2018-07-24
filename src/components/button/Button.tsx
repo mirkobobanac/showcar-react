@@ -15,6 +15,11 @@ type Props = {
   link?: boolean
 
   /**
+   * Does nothing when `link` is true
+   */
+  disabled?: boolean
+
+  /**
    * Additional classes
    */
   additionalClasses?: string
@@ -23,7 +28,7 @@ type Props = {
   fullWidth?: boolean
 }
 
-const Button: React.SFC<Props> = ({ link, type, additionalClasses, children, fullWidth }) =>
+const Button: React.SFC<Props> = ({ link, type, additionalClasses, children, fullWidth, disabled }) =>
   link ? (
     <a className={`sc-btn-${type} ${additionalClasses ? additionalClasses : ''} ${fullWidth} ? 'sc-btn-block' : ''}`}>
       {children}
@@ -31,8 +36,9 @@ const Button: React.SFC<Props> = ({ link, type, additionalClasses, children, ful
   ) : (
     <button
       className={`sc-btn-${type} ${additionalClasses ? additionalClasses : ''} ${fullWidth} ? 'sc-btn-block' : ''}`}
+      disabled={disabled || false}
     >
-      >{children}
+      {children}
     </button>
   )
 
