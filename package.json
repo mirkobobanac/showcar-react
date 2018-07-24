@@ -10,12 +10,22 @@
   "scripts": {
     "docs": "docsify serve ./docs",
     "prettier:fix": "prettier --write '*/**/*.{js,ts,tsx,json,md,scss,graphql,css}' '*.{js,ts,tsx,json,md,scss,graphql,css}'",
-    "pretest:all": "prettier --list-different '*/**/*.{js,ts,tsx,json,md,scss,graphql,css}' || (echo \"Problem with code format. Please do yarn run prettier:fix\" && exit 1)"
+    "pretest:all": "prettier --list-different '*/**/*.{js,ts,tsx,json,md,scss,graphql,css}' || (echo \"Problem with code format. Please do yarn run prettier:fix\" && exit 1)",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "docsify-cli": "^4.2.1"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^4.0.0-alpha.14",
+    "@storybook/addon-knobs": "^3.4.8",
+    "@storybook/addon-links": "^4.0.0-alpha.14",
+    "@storybook/addons": "^4.0.0-alpha.14",
+    "@storybook/cli": "4.0.0-alpha.14",
+    "@storybook/react": "^4.0.0-alpha.14",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
     "prettier": "^1.13.7",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
