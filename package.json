@@ -8,9 +8,23 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "docs": "docsify serve ./docs"
+    "docs": "docsify serve ./docs",
+    "prettier:fix": "prettier --write '*/**/*.{js,ts,tsx,json,md,scss,graphql,css}' '*.{js,ts,tsx,json,md,scss,graphql,css}'",
+    "pretest:all": "prettier --list-different '*/**/*.{js,ts,tsx,json,md,scss,graphql,css}' || (echo \"Problem with code format. Please do yarn run prettier:fix\" && exit 1)"
   },
   "dependencies": {
     "docsify-cli": "^4.2.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.13.7",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "showcar-ui": "^4.3.1",
+    "typescript": "^2.9.2"
+  },
+  "peerDependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "showcar-ui": "^4.3.1"
   }
 }
