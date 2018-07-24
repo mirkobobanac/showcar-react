@@ -1,0 +1,16 @@
+{
+  "name": "showcar-react",
+  "version": "0.0.1",
+  "description": "React components for as24 showcar-ui library",
+  "main": "index.js",
+  "repository": "github.com/Scout24/showcar-react",
+  "author": "Inaki Anduaga <inaki.anduaga@scout24.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "docs": "docsify serve ./docs"
+  },
+  "dependencies": {
+    "docsify-cli": "^4.2.1"
+  }
+}

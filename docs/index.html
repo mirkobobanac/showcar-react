@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>showcar-react - React components for as24 showcar-ui library</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="React components for as24 showcar-ui library">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+</head>
+
+<body>
+  <div id="app">Loading showcar-react documentation</div>
+  <script>
+    window.$docsify = {
+      name: 'showcar-react',
+      repo: 'github.com/Scout24/showcar-react',
+      // loadNavbar: true,
+      loadSidebar: true,
+      coverpage: true,
+      auto2top: true,
+      themeColor: '#ff7500', // as24 orange
+      maxLevel: 4,
+      subMaxLevel: 2,
+      formatUpdated: '{MM}/{DD} {HH}:{mm}',
+
+    }
+  </script>
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
+    }
+  </script>
+</body>
+
+</html>
