@@ -3,6 +3,11 @@
   - [Introduction](README.md)
   - [Quick start](quickstart.md)
 
+- Architectural Decision Records
+
+  - [libraries](./adr/libraries.md)
+  - [integration](./adr/libraries.md)
+
 - Contributing
 
   - [Local stack](localdevelopment.md)

@@ -28,7 +28,10 @@ type Props = {
   fullWidth?: boolean
 }
 
-const Button: React.SFC<Props> = ({ link, type, additionalClasses, children, fullWidth, disabled }) =>
+/**
+ * Button Component
+ */
+export const Button: React.SFC<Props> = ({ link, type, additionalClasses, children, fullWidth, disabled }) =>
   link ? (
     <a className={`sc-btn-${type} ${additionalClasses ? additionalClasses : ''} ${fullWidth} ? 'sc-btn-block' : ''}`}>
       {children}

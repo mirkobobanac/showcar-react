@@ -9,14 +9,16 @@ import Button from '../src/components/button/Button'
 
 storiesOf('Button', module)
   .addDecorator(withKnobs)
-  .add('with different styles', () => (
-    <div>
-      <Button type="ross">Ross</Button> &nbsp;
-      <Button type="bob">Bob</Button> &nbsp;
-      <Button type="ghost">Ghost</Button> &nbsp;
-      <Button type="marketing">Marketing</Button>
-    </div>
-  ))
+  .addDecorator(
+    withInfo({ inline: true })(() => (
+      <div>
+        <Button type="ross">Ross</Button> &nbsp;
+        <Button type="bob">Bob</Button> &nbsp;
+        <Button type="ghost">Ghost</Button> &nbsp;
+        <Button type="marketing">Marketing</Button>
+      </div>
+    ))
+  )
   .add('parametrized', () => (
     <div>
       <Button type="ross" disabled={boolean('Disabled', false)}>
