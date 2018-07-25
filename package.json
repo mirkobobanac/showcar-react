@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "docs": "docsify serve ./docs",
+    "docs": "docsify serve ./",
     "prettier:fix": "prettier --write '*/**/*.{js,ts,tsx,json,md,scss,graphql,css}' '*.{js,ts,tsx,json,md,scss,graphql,css}'",
     "pretest:all": "prettier --list-different '*/**/*.{js,ts,tsx,json,md,scss,graphql,css}' || (echo \"Problem with code format. Please do yarn run prettier:fix\" && exit 1)",
     "storybook": "start-storybook -p 6006",

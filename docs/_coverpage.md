@@ -1,6 +1,6 @@
 ![logo](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/AutoScout24_logo.svg/100px-AutoScout24_logo.svg.png)
 
-# Showcar-UI React <small>1.0</small>
+# Showcar-UI React <small>0.0.1</small>
 
 > React components for the AutoScout24 Showcar-UI library
 
