@@ -9,5 +9,5 @@
 - Tree-shacking support for minimum bundle size
 
 [GitHub](https://github.com/Scout24/showcar-react/)
-[Interact](LINK_TO_STORYBOOK_PAGE)
+[Interact](./storybook/ ':ignore')
 [Get Started](#welcome)
