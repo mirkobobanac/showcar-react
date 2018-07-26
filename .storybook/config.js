@@ -8,6 +8,16 @@ function loadStories() {
 }
 
 setOptions({
+  /**
+   * name to display in the top left corner
+   * @type {String}
+   */
+  name: 'Showcar-React',
+  /**
+   * URL for name in top left corner to link to
+   * @type {String}
+   */
+  url: '/',
   hierarchySeparator: /\//,
   hierarchyRootSeparator: /\|/
 })
