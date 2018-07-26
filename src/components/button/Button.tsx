@@ -1,6 +1,6 @@
 import React from 'react'
 
-type Props = {
+interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement | HTMLAnchorElement> {
   /**
    * Bob: Primary button, should be used for all top level interactions.
    * Ross: Secondary button, should be used for less important interactions.
@@ -24,25 +24,35 @@ type Props = {
    */
   additionalClasses?: string
 
-  // Make button be full width
+  /**
+   *  Make button be full width
+   */
+
   fullWidth?: boolean
 }
 
 /**
  * Button Component
  */
-export const Button: React.SFC<Props> = ({ link, type, additionalClasses, children, fullWidth, disabled }) =>
-  link ? (
-    <a className={`sc-btn-${type} ${additionalClasses ? additionalClasses : ''} ${fullWidth} ? 'sc-btn-block' : ''}`}>
+export const Button: React.SFC<Props> = props => {
+  const { link, type, additionalClasses, children, fullWidth, disabled, ...standardHtmlButtonAttributes } = props
+
+  return link ? (
+    <a
+      className={`sc-btn-${type} ${additionalClasses ? additionalClasses : ''} ${fullWidth} ? 'sc-btn-block' : ''}`}
+      {...standardHtmlButtonAttributes}
+    >
       {children}
     </a>
   ) : (
     <button
       className={`sc-btn-${type} ${additionalClasses ? additionalClasses : ''} ${fullWidth} ? 'sc-btn-block' : ''}`}
       disabled={disabled || false}
+      {...standardHtmlButtonAttributes}
     >
       {children}
     </button>
   )
+}
 
 export default Button
