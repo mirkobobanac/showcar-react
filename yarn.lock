@@ -205,6 +205,19 @@
     prop-types "^15.6.1"
     react-syntax-highlighter "^7.0.4"
 
+"@storybook/addon-viewport@4.0.0-alpha.14":
+  version "4.0.0-alpha.14"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-4.0.0-alpha.14.tgz#7cc2c60df0dc735cf01f0ae433359dca940f8cb9"
+  dependencies:
+    "@storybook/addons" "4.0.0-alpha.14"
+    "@storybook/components" "4.0.0-alpha.14"
+    "@storybook/core-events" "4.0.0-alpha.14"
+    babel-runtime "^6.26.0"
+    global "^4.3.2"
+    prop-types "^15.6.1"
+    react-emotion "^9.1.3"
+    util-deprecate "^1.0.2"
+
 "@storybook/addons@4.0.0-alpha.14", "@storybook/addons@^4.0.0-alpha.14":
   version "4.0.0-alpha.14"
   resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-4.0.0-alpha.14.tgz#682be365820a1f4c0b9a90be53916b43b20d36e5"
