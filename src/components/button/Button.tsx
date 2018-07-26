@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { SFC } from 'react'
 
 interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement | HTMLAnchorElement> {
   /**
@@ -29,7 +29,7 @@ interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement | HTMLAncho
 /**
  * Button Component - supports all standard <button> attributes plus showcar-specific ones
  */
-export const Button: React.SFC<Props> = props => {
+export const Button: SFC<Props> = props => {
   const { link, type, className, children, fullWidth, disabled, ...standardHtmlButtonAttributes } = props
 
   return link ? (

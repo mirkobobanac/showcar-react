@@ -4,23 +4,7 @@ import { storiesOf, addDecorator } from '@storybook/react'
 import { withInfo } from '@storybook/addon-info'
 import { action } from '@storybook/addon-actions'
 import { withKnobs, text, boolean, number } from '@storybook/addon-knobs'
-import Button from '../src/components/button/Button'
-
-// addDecorator(withInfo({ inline: true }))
-
-storiesOf('Core|Atoms/Button', module)
-  .addDecorator(withKnobs)
-  .addDecorator(
-    withInfo({ inline: true })(() => (
-      <div>
-        <Button type="ross">Ross</Button> &nbsp;
-        <Button type="bob">Bob</Button> &nbsp;
-        <Button type="ghost">Ghost</Button> &nbsp;
-        <Button type="marketing">Marketing</Button>
-      </div>
-    ))
-  )
-  .add('example', () => <div>Example here</div>)
+import { Button } from '../src/components/button/Button'
 
 storiesOf('Core|Atoms/Button', module)
   .addDecorator(withKnobs)
@@ -46,3 +30,8 @@ storiesOf('Core|Atoms/Button', module)
       </Button>
     </div>
   ))
+
+storiesOf('Core|Atoms/Button', module)
+  .addDecorator(withKnobs)
+  .addDecorator(withInfo({ inline: true, header: false, source: false })(() => <Button type="ross">Ross</Button>))
+  .add('properties', () => <div />)
