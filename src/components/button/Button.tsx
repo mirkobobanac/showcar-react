@@ -20,11 +20,6 @@ interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement | HTMLAncho
   disabled?: boolean
 
   /**
-   * Additional classes
-   */
-  additionalClasses?: string
-
-  /**
    *  Make button be full width
    */
 
@@ -32,21 +27,21 @@ interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement | HTMLAncho
 }
 
 /**
- * Button Component
+ * Button Component - supports all standard <button> attributes plus showcar-specific ones
  */
 export const Button: React.SFC<Props> = props => {
-  const { link, type, additionalClasses, children, fullWidth, disabled, ...standardHtmlButtonAttributes } = props
+  const { link, type, className, children, fullWidth, disabled, ...standardHtmlButtonAttributes } = props
 
   return link ? (
     <a
-      className={`sc-btn-${type} ${additionalClasses ? additionalClasses : ''} ${fullWidth} ? 'sc-btn-block' : ''}`}
+      className={`sc-btn-${type} ${className ? className : ''} ${fullWidth} ? 'sc-btn-block' : ''}`}
       {...standardHtmlButtonAttributes}
     >
       {children}
     </a>
   ) : (
     <button
-      className={`sc-btn-${type} ${additionalClasses ? additionalClasses : ''} ${fullWidth} ? 'sc-btn-block' : ''}`}
+      className={`sc-btn-${type} ${className ? className : ''} ${fullWidth} ? 'sc-btn-block' : ''}`}
       disabled={disabled || false}
       {...standardHtmlButtonAttributes}
     >

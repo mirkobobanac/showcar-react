@@ -2,12 +2,13 @@ import React from 'react'
 
 import { storiesOf, addDecorator } from '@storybook/react'
 import { withInfo } from '@storybook/addon-info'
+import { action } from '@storybook/addon-actions'
 import { withKnobs, text, boolean, number } from '@storybook/addon-knobs'
 import Button from '../src/components/button/Button'
 
 // addDecorator(withInfo({ inline: true }))
 
-storiesOf('Button', module)
+storiesOf('Core|Atoms/Button', module)
   .addDecorator(withKnobs)
   .addDecorator(
     withInfo({ inline: true })(() => (
@@ -19,9 +20,13 @@ storiesOf('Button', module)
       </div>
     ))
   )
-  .add('parametrized', () => (
+  .add('example', () => <div>Example here</div>)
+
+storiesOf('Core|Atoms/Button', module)
+  .addDecorator(withKnobs)
+  .add('props', () => (
     <div>
-      <Button type="ross" disabled={boolean('Disabled', false)}>
+      <Button type="ross" disabled={boolean('Disabled', false)} onClick={action('button clicked!')}>
         {text('Label', 'Ross')}
       </Button>
     </div>
