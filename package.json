@@ -50,7 +50,7 @@
     "react-dom": "^16.4.1",
     "showcar-ui": "^4.3.1",
     "ts-jest": "^23.0.1",
-    "typescript": "^2.9.2"
+    "typescript": "3.0.0-rc"
   },
   "peerDependencies": {
     "react": "^16.4.1",

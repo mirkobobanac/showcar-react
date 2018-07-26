@@ -24,10 +24,25 @@ storiesOf('Core|Atoms/Button', module)
 
 storiesOf('Core|Atoms/Button', module)
   .addDecorator(withKnobs)
-  .add('props', () => (
+  .add('colours', () => (
     <div>
-      <Button type="ross" disabled={boolean('Disabled', false)} onClick={action('button clicked!')}>
-        {text('Label', 'Ross')}
+      <Button type="ross">Ross</Button> &nbsp;
+      <Button type="bob">Bob</Button> &nbsp;
+      <Button type="ghost">Ghost</Button> &nbsp;
+      <Button type="marketing">Marketing</Button>
+    </div>
+  ))
+  .add('disabled', () => (
+    <div>
+      <Button type="ross" disabled={boolean('Disabled', true)}>
+        Ross
+      </Button>
+    </div>
+  ))
+  .add('fullWidth', () => (
+    <div>
+      <Button type="ross" fullWidth={boolean('Full Width', true)}>
+        Ross
       </Button>
     </div>
   ))

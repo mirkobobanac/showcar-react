@@ -34,14 +34,14 @@ export const Button: React.SFC<Props> = props => {
 
   return link ? (
     <a
-      className={`sc-btn-${type} ${className ? className : ''} ${fullWidth} ? 'sc-btn-block' : ''}`}
+      className={`sc-btn-${type} ${className ? className : ''} ${fullWidth ? 'sc-btn-block' : ''}`}
       {...standardHtmlButtonAttributes}
     >
       {children}
     </a>
   ) : (
     <button
-      className={`sc-btn-${type} ${className ? className : ''} ${fullWidth} ? 'sc-btn-block' : ''}`}
+      className={`sc-btn-${type} ${className ? className : ''} ${fullWidth ? 'sc-btn-block' : ''}`}
       disabled={disabled || false}
       {...standardHtmlButtonAttributes}
     >
