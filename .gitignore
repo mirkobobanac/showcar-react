@@ -3,3 +3,5 @@ node_modules
 yarn-error.log
 storybook-static
 travis_ci_rsa
+dist
+.rpt2_cache/
