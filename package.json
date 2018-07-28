@@ -4,7 +4,7 @@
   "description": "React components for as24 showcar-ui library",
   "main": "./dist/index.js",
   "module": "./dist/index.es5.js",
-  "types": "./dist/index.d.ts",
+  "types": "./dist/src/index.d.ts",
   "browser": "./dist/showcar-react.min.js",
   "repository": "github.com/Scout24/showcar-react",
   "author": "Inaki Anduaga <inaki.anduaga@scout24.com>",
@@ -18,7 +18,7 @@
     "build-storybook": "build-storybook",
     "gh-pages-deploy": "gh-pages -d docs --message 'Update docs & storybook' --repo 'git@github.com:Scout24/showcar-react-docs.git' --dotfiles",
     "prebuild": "rimraf dist",
-    "build": "tsc --p ./tsconfig.prod.json --module commonjs && rollup -c rollup.config.js"
+    "build": "tsc --project ./tsconfig.rollup.json --declaration --module commonjs && rollup -c rollup.config.js"
   },
   "dependencies": {
     "@types/node": "^10.5.2",
