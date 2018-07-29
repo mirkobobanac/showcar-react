@@ -19,7 +19,8 @@
     "gh-pages-deploy": "gh-pages -d docs --message 'Update docs & storybook' --repo 'git@github.com:Scout24/showcar-react-docs.git' --dotfiles",
     "prebuild": "rimraf dist",
     "build": "tsc --project ./tsconfig.rollup.json --declaration --module commonjs && rollup -c rollup.config.js",
-    "test": "jest"
+    "test": "jest --json --outputFile=.jest-test-results.json",
+    "test:watch": "jest --notify --watch --json --outputFile=.jest-test-results.json"
   },
   "dependencies": {
     "@types/node": "^10.5.2",
@@ -67,6 +68,8 @@
     "rollup-plugin-terser": "^1.0.1",
     "rollup-plugin-typescript2": "^0.16.1",
     "showcar-ui": "^4.3.1",
+    "storybook-addon-jest": "^0.0.1",
+    "storybook-addon-jsx": "^5.4.0",
     "ts-jest": "^23.0.1",
     "typescript": "3.0.0-rc",
     "uglify-es": "^3.3.9"

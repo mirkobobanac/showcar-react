@@ -5,3 +5,4 @@ storybook-static
 travis_ci_rsa
 dist
 .rpt2_cache/
+.jest-test-results.json

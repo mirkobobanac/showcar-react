@@ -5,8 +5,10 @@ import { withInfo } from '@storybook/addon-info'
 import { action } from '@storybook/addon-actions'
 import { withKnobs, text, boolean, number } from '@storybook/addon-knobs'
 import { Button } from '../src/components/button/Button'
+import withTests from '../.storybook/withTests'
 
 storiesOf('Core|Atoms/Button', module)
+  .addDecorator(withTests('Button'))
   .addDecorator(withKnobs)
   .add('colours', () => (
     <div>
@@ -30,8 +32,5 @@ storiesOf('Core|Atoms/Button', module)
       </Button>
     </div>
   ))
-
-storiesOf('Core|Atoms/Button', module)
-  .addDecorator(withKnobs)
   .addDecorator(withInfo({ inline: true, header: false, source: false })(() => <Button type="ross">Ross</Button>))
   .add('usage', () => <div />)
