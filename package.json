@@ -19,8 +19,8 @@
     "gh-pages-deploy": "gh-pages -d docs --message 'Update docs & storybook' --repo 'git@github.com:Scout24/showcar-react-docs.git' --dotfiles",
     "prebuild": "rimraf dist",
     "build": "tsc --project ./tsconfig.rollup.json --declaration --module commonjs && rollup -c rollup.config.js",
-    "test": "jest --json --outputFile=.jest-test-results.json",
-    "test:watch": "jest --notify --watch --json --outputFile=.jest-test-results.json",
+    "test": "jest",
+    "test:watch": "jest --notify --watch",
     "test:coverage:publish": "codecov"
   },
   "dependencies": {
@@ -96,7 +96,9 @@
     },
     "testPathIgnorePatterns": [
       "/node_modules/",
-      "/lib/"
+      "/lib/",
+      "/.storybook/",
+      "/stories/"
     ],
     "testRegex": "(/test/.*|\\.(test|spec))\\.(ts|tsx|js)$",
     "moduleFileExtensions": [

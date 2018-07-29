@@ -1,14 +1,10 @@
 import React from 'react'
-
 import { storiesOf, addDecorator } from '@storybook/react'
 import { withInfo } from '@storybook/addon-info'
-import { action } from '@storybook/addon-actions'
 import { withKnobs, text, boolean, number } from '@storybook/addon-knobs'
 import { Button } from '../src/components/button/Button'
-import withTests from '../.storybook/withTests'
 
 storiesOf('Core|Atoms/Button', module)
-  .addDecorator(withTests('Button'))
   .addDecorator(withKnobs)
   .add('colours', () => (
     <div>
