@@ -28,4 +28,4 @@ storiesOf('Core|Utilities/OutsideClickDetector', module)
   .addDecorator(
     withInfo({ inline: true, header: false, source: false })(() => <OutsideClickDetector onClickOutside={() => {}} />)
   )
-  .add('properties', () => <div />)
+  .add('usage', () => <div />)

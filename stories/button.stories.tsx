@@ -1,8 +1,6 @@
 import React from 'react'
-
 import { storiesOf, addDecorator } from '@storybook/react'
 import { withInfo } from '@storybook/addon-info'
-import { action } from '@storybook/addon-actions'
 import { withKnobs, text, boolean, number } from '@storybook/addon-knobs'
 import { Button } from '../src/components/button/Button'
 
@@ -30,8 +28,5 @@ storiesOf('Core|Atoms/Button', module)
       </Button>
     </div>
   ))
-
-storiesOf('Core|Atoms/Button', module)
-  .addDecorator(withKnobs)
   .addDecorator(withInfo({ inline: true, header: false, source: false })(() => <Button type="ross">Ross</Button>))
   .add('usage', () => <div />)

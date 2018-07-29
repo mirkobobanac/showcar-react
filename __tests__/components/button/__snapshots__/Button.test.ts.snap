@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Core|Atoms/Button colours 1`] = `
+<div>
+  <button
+    className="sc-btn-ross  "
+    disabled={false}
+  >
+    Ross
+  </button>
+    
+  <button
+    className="sc-btn-bob  "
+    disabled={false}
+  >
+    Bob
+  </button>
+    
+  <button
+    className="sc-btn-ghost  "
+    disabled={false}
+  >
+    Ghost
+  </button>
+    
+  <button
+    className="sc-btn-marketing  "
+    disabled={false}
+  >
+    Marketing
+  </button>
+</div>
+`;
+
+exports[`Storyshots Core|Atoms/Button disabled 1`] = `
+<div>
+  <button
+    className="sc-btn-ross  "
+    disabled={true}
+  >
+    Ross
+  </button>
+</div>
+`;
+
+exports[`Storyshots Core|Atoms/Button fullWidth 1`] = `
+<div>
+  <button
+    className="sc-btn-ross  sc-btn-block"
+    disabled={false}
+  >
+    Ross
+  </button>
+</div>
+`;
+
+exports[`Storyshots Core|Atoms/Button usage 1`] = `
+<div>
+  <div
+    style={Object {}}
+  >
+    <button
+      className="sc-btn-ross  "
+      disabled={false}
+    >
+      Ross
+    </button>
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "WebkitFontSmoothing": "antialiased",
+          "backgroundColor": "#fff",
+          "border": "1px solid #eee",
+          "borderRadius": "2px",
+          "boxShadow": "0px 2px 3px rgba(0, 0, 0, 0.05)",
+          "color": "#444",
+          "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "marginBottom": "20px",
+          "marginTop": "20px",
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      
+      <div>
+        <h1
+          style={
+            Object {
+              "borderBottom": "1px solid #EEE",
+              "fontSize": "25px",
+              "margin": "20px 0 0 0",
+              "padding": "0 0 5px 0",
+            }
+          }
+        >
+          Prop Types
+        </h1>
+        <div>
+          <h2
+            style={
+              Object {
+                "margin": "20px 0 0 0",
+              }
+            }
+          >
+            "
+            
+            " Component
+          </h2>
+          <small>
+            No propTypes defined!
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
