@@ -20,7 +20,8 @@
     "prebuild": "rimraf dist",
     "build": "tsc --project ./tsconfig.rollup.json --declaration --module commonjs && rollup -c rollup.config.js",
     "test": "jest --json --outputFile=.jest-test-results.json",
-    "test:watch": "jest --notify --watch --json --outputFile=.jest-test-results.json"
+    "test:watch": "jest --notify --watch --json --outputFile=.jest-test-results.json",
+    "test:coverage:publish": "codecov"
   },
   "dependencies": {
     "@types/node": "^10.5.2",
@@ -104,6 +105,8 @@
       "js",
       "json"
     ],
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true,
     "coverageReporters": [
       "cobertura",
       "html",

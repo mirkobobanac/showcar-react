@@ -16,10 +16,12 @@ before_install:
 - set -e
 install:
 - yarn install
+- yarn global add codecov
 script:
 - yarn run test 
 - yarn run build
 - yarn run build-storybook
 after_success:
+- codecov
 - if [ "$TRAVIS_PULL_REQUEST" != "true" ] && [ "$TRAVIS_BRANCH" == "master" ]; then
   bash ./gh-pages-deploy.sh; fi
