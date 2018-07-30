@@ -53,7 +53,6 @@ class Pagination extends React.Component<Props> {
   private paginationElement!: HTMLElement // assigned on render
 
   public render() {
-    console.log(this.props)
     return (
       <div className="cl-pagination">
         <ul
@@ -70,6 +69,9 @@ class Pagination extends React.Component<Props> {
     this.updatePager()
   }
 
+  /**
+   * TODO: Refactor to not use componentWillReceiveProps
+   */
   public UNSAFE_componentWillReceiveProps(nextProps: Readonly<Props>, nextContext: any) {
     if (this.props !== nextProps) {
       this.updatePager()
@@ -127,7 +129,9 @@ class Pagination extends React.Component<Props> {
       .forEach(data => {
         data.elem.onclick = (ev: MouseEvent) => {
           ev.preventDefault()
+          // console.log(data)
           if (data.page !== null && data.page !== 0 && !isNaN(data.page)) {
+            // console.log('triggering page selection', this.props.onPageSelection)
             this.props.onPageSelection(data.page, data.elem.getAttribute('href')!)
           }
         }
