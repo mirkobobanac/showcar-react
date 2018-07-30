@@ -8,32 +8,72 @@ import { Icon, Props as IconProps, IconTypes } from '../src/components/icon/Icon
 storiesOf('Core|Atoms/Icon', module)
   .addDecorator(withKnobs)
   .add('icons', () => (
-    <div>
+    <ul>
       {allIconTypes.map(iconType => (
-        <div
+        <li
           key={iconType}
           style={{
+            verticalAlign: 'top',
             display: 'inline-block',
             margin: '0.5em',
             border: '1px solid #666',
             padding: '0.5em',
             borderRadius: '0.3em',
-            backgroundColor: select(
-              'backgroundColorTest',
-              { white: 'white', orange: 'orange', grey: '#666', transparent: 'transparent' },
-              'transparent'
-            )
+            backgroundColor: select('backgroundColorTest', colorWheel, 'transparent')
           }}
         >
           <Icon
             type={iconType}
             onClick={action(`clicked on icon ${iconType}, receiving event`)}
             title={iconType}
-            size={select('size', sizeOptions, sizeOptions.xl) as any}
+            size={select('size', sizeOptions, sizeOptions.xxl) as any}
           />
-        </div>
+        </li>
       ))}
-    </div>
+    </ul>
+  ))
+  .add('gallery', () => (
+    <ul style={{ backgroundColor: 'white', padding: '2em', overflow: 'hidden' }}>
+      {allIconTypes.map(iconType => (
+        <li
+          key={iconType}
+          style={{
+            padding: '20px 10px 10px',
+            float: 'left',
+            backgroundColor: select('backgroundColorTest', colorWheel, '#f4f4f4'),
+            border: '1px solid #fff',
+            width: '108px',
+            height: '130px',
+            listStyle: 'none',
+            textAlign: 'center',
+            marginBottom: '20px',
+            marginLeft: '20px'
+          }}
+        >
+          <Icon
+            type={iconType}
+            onClick={action(`clicked on icon ${iconType}, receiving event`)}
+            title={iconType}
+            size="xxl"
+            style={{
+              display: 'inline-block',
+              width: '50px',
+              height: '50px'
+            }}
+          />
+          <p
+            style={{
+              paddingTop: 0,
+              wordBreak: 'break-all',
+              height: '40px',
+              fontSize: '13px'
+            }}
+          >
+            {iconType}
+          </p>
+        </li>
+      ))}
+    </ul>
   ))
   .addDecorator(withInfo({ inline: true, header: false, source: false })(() => <Icon type="android" size="xl" />))
   .add('usage', () => <div />)
@@ -149,3 +189,13 @@ const allIconTypes: IconTypes[] = [
   'windows',
   'youtube'
 ]
+
+const colorWheel = {
+  white: 'white',
+  orange: 'orange',
+  grey: '#666',
+  lightGrey: '#f4f4f4',
+  transparent: 'transparent',
+  pink: 'pink',
+  wheat: 'wheat'
+}
