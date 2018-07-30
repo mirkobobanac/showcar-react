@@ -28,6 +28,7 @@
     "docsify-cli": "^4.2.1"
   },
   "devDependencies": {
+    "@dump247/storybook-state": "^1.5.0",
     "@storybook/addon-actions": "4.0.0-alpha.14",
     "@storybook/addon-info": "^3.4.8",
     "@storybook/addon-knobs": "^3.4.8",
