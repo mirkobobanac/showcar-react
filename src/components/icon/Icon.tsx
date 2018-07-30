@@ -10,7 +10,6 @@ export type CountryFlags =
   | 'flag/nl'
   | 'flag/es'
   | 'flag/at'
-  | 'flag/eu'
 
 export type BodyType =
   | 'bodytypes/compact'

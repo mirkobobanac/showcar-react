@@ -11,6 +11,7 @@ storiesOf('Core|Atoms/Icon', module)
     <div>
       {allIconTypes.map(iconType => (
         <div
+          key={iconType}
           style={{
             display: 'inline-block',
             margin: '0.5em',
