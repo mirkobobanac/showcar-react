@@ -1,0 +1,2114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Core|Atoms/Icon icons 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="bodytypes/compact"
+      type="bodytypes/compact"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="bodytypes/delivery"
+      type="bodytypes/delivery"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="bodytypes/electro-hybrid-gas"
+      type="bodytypes/electro-hybrid-gas"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="bodytypes/limousine"
+      type="bodytypes/limousine"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="bodytypes/moto-chopper"
+      type="bodytypes/moto-chopper"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="bodytypes/moto-classic"
+      type="bodytypes/moto-classic"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="bodytypes/moto-enduro"
+      type="bodytypes/moto-enduro"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="bodytypes/moto-naked"
+      type="bodytypes/moto-naked"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="bodytypes/moto-quad"
+      type="bodytypes/moto-quad"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="bodytypes/moto-scooter"
+      type="bodytypes/moto-scooter"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="bodytypes/moto-sports"
+      type="bodytypes/moto-sports"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="bodytypes/moto-tourer"
+      type="bodytypes/moto-tourer"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="bodytypes/moto-touring_enduro"
+      type="bodytypes/moto-touring_enduro"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="bodytypes/offroad"
+      type="bodytypes/offroad"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="bodytypes/oldtimer"
+      type="bodytypes/oldtimer"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="bodytypes/roadster"
+      type="bodytypes/roadster"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="bodytypes/sports"
+      type="bodytypes/sports"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="bodytypes/station"
+      type="bodytypes/station"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="bodytypes/van"
+      type="bodytypes/van"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="404"
+      type="404"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="android"
+      type="android"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="appIcon"
+      type="appIcon"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="arrow"
+      type="arrow"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="arrowTop"
+      type="arrowTop"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="attention"
+      type="attention"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="auto24"
+      type="auto24"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="bubble"
+      type="bubble"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="bubbles"
+      type="bubbles"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="car-valuation"
+      type="car-valuation"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="carInsertion"
+      type="carInsertion"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="carInsertionEdit"
+      type="carInsertionEdit"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="close"
+      type="close"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="contract"
+      type="contract"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="counselor"
+      type="counselor"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="delete"
+      type="delete"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="download"
+      type="download"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="edit"
+      type="edit"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="emission-badge-2"
+      type="emission-badge-2"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="emission-badge-3"
+      type="emission-badge-3"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="emission-badge-4"
+      type="emission-badge-4"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="emission-badge-5"
+      type="emission-badge-5"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="facebook"
+      type="facebook"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="favorits"
+      type="favorits"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="finance24"
+      type="finance24"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="flag/eu"
+      type="flag/eu"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="flag/de"
+      type="flag/de"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="flag/be"
+      type="flag/be"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="flag/fr"
+      type="flag/fr"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="flag/it"
+      type="flag/it"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="flag/lu"
+      type="flag/lu"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="flag/nl"
+      type="flag/nl"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="flag/es"
+      type="flag/es"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="flag/at"
+      type="flag/at"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="flag/eu"
+      type="flag/eu"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="google"
+      type="google"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="googleplus"
+      type="googleplus"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="heart"
+      type="heart"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="hook"
+      type="hook"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="hookSquare"
+      type="hookSquare"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="immo24"
+      type="immo24"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="info"
+      type="info"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="instagram"
+      type="instagram"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="ios"
+      type="ios"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="lifestyle/familycar"
+      type="lifestyle/familycar"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="lifestyle/firstcar"
+      type="lifestyle/firstcar"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="lifestyle/fourxfour"
+      type="lifestyle/fourxfour"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="lifestyle/fuelsaver"
+      type="lifestyle/fuelsaver"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="lifestyle/luxury"
+      type="lifestyle/luxury"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="lifestyle/roadster-l"
+      type="lifestyle/roadster-l"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="location"
+      type="location"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="mail"
+      type="mail"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="navigation/car"
+      type="navigation/car"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="navigation/caravan"
+      type="navigation/caravan"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="navigation/motocycle"
+      type="navigation/motocycle"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="navigation/truck"
+      type="navigation/truck"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="people"
+      type="people"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="phone"
+      type="phone"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="pin-car-xl"
+      type="pin-car-xl"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="pin"
+      type="pin"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="pinCar"
+      type="pinCar"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="pinMoto"
+      type="pinMoto"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="pinterest"
+      type="pinterest"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="placeholder-car"
+      type="placeholder-car"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="placeholder-moto"
+      type="placeholder-moto"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="placeholder-truck"
+      type="placeholder-truck"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="plus"
+      type="plus"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="print"
+      type="print"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="saved-search"
+      type="saved-search"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="scout24"
+      type="scout24"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="search"
+      type="search"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="security"
+      type="security"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="sharing"
+      type="sharing"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="star-half"
+      type="star-half"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="star"
+      type="star"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="t-online"
+      type="t-online"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="tip"
+      type="tip"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="truckscout"
+      type="truckscout"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="twitter"
+      type="twitter"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="vehicles"
+      type="vehicles"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="whatsapp"
+      type="whatsapp"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="windows"
+      type="windows"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "border": "1px solid #666",
+        "borderRadius": "0.3em",
+        "display": "inline-block",
+        "margin": "0.5em",
+        "padding": "0.5em",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      title="youtube"
+      type="youtube"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Core|Atoms/Icon usage 1`] = `
+<div>
+  <div
+    style={Object {}}
+  >
+    <as24-icon
+      class="sc-icon-xl "
+      onClick={[Function]}
+      style={Object {}}
+      type="android"
+    />
+  </div>
+  <div>
+    <div
+      style={
+        Object {
+          "WebkitFontSmoothing": "antialiased",
+          "backgroundColor": "#fff",
+          "border": "1px solid #eee",
+          "borderRadius": "2px",
+          "boxShadow": "0px 2px 3px rgba(0, 0, 0, 0.05)",
+          "color": "#444",
+          "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "marginBottom": "20px",
+          "marginTop": "20px",
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      
+      <div>
+        <h1
+          style={
+            Object {
+              "borderBottom": "1px solid #EEE",
+              "fontSize": "25px",
+              "margin": "20px 0 0 0",
+              "padding": "0 0 5px 0",
+            }
+          }
+        >
+          Prop Types
+        </h1>
+        <div>
+          <h2
+            style={
+              Object {
+                "margin": "20px 0 0 0",
+              }
+            }
+          >
+            "
+            
+            " Component
+          </h2>
+          <small>
+            No propTypes defined!
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

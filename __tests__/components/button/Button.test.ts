@@ -5,4 +5,3 @@ initStoryshots({
 })
 
 // Additional Button tests
-test('a button', () => expect(true).toBeTruthy())
