@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { Dispatch } from 'redux'
 
 type Props = {
   /**
@@ -117,7 +116,7 @@ class Pagination extends React.Component<Props> {
       }
     }
 
-    Array.from(this.paginationElement.getElementsByTagName('a'))
+    Array.from(this.paginationElement ? this.paginationElement.getElementsByTagName('a') : [])
       .map(elem => ({
         elem,
         url: elem.getAttribute('href')

@@ -100,7 +100,6 @@ const allIconTypes: IconTypes[] = [
   'flag/nl',
   'flag/es',
   'flag/at',
-  'flag/eu',
   'google',
   'googleplus',
   'heart',
