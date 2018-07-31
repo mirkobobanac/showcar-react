@@ -1,8 +1,4263 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Core|Atoms/Icon gallery 1`] = `
+<ul
+  style={
+    Object {
+      "backgroundColor": "white",
+      "overflow": "hidden",
+      "padding": "2em",
+    }
+  }
+>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="bodytypes/compact"
+      type="bodytypes/compact"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      bodytypes/compact
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="bodytypes/delivery"
+      type="bodytypes/delivery"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      bodytypes/delivery
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="bodytypes/electro-hybrid-gas"
+      type="bodytypes/electro-hybrid-gas"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      bodytypes/electro-hybrid-gas
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="bodytypes/limousine"
+      type="bodytypes/limousine"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      bodytypes/limousine
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="bodytypes/moto-chopper"
+      type="bodytypes/moto-chopper"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      bodytypes/moto-chopper
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="bodytypes/moto-classic"
+      type="bodytypes/moto-classic"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      bodytypes/moto-classic
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="bodytypes/moto-enduro"
+      type="bodytypes/moto-enduro"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      bodytypes/moto-enduro
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="bodytypes/moto-naked"
+      type="bodytypes/moto-naked"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      bodytypes/moto-naked
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="bodytypes/moto-quad"
+      type="bodytypes/moto-quad"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      bodytypes/moto-quad
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="bodytypes/moto-scooter"
+      type="bodytypes/moto-scooter"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      bodytypes/moto-scooter
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="bodytypes/moto-sports"
+      type="bodytypes/moto-sports"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      bodytypes/moto-sports
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="bodytypes/moto-tourer"
+      type="bodytypes/moto-tourer"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      bodytypes/moto-tourer
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="bodytypes/moto-touring_enduro"
+      type="bodytypes/moto-touring_enduro"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      bodytypes/moto-touring_enduro
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="bodytypes/offroad"
+      type="bodytypes/offroad"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      bodytypes/offroad
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="bodytypes/oldtimer"
+      type="bodytypes/oldtimer"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      bodytypes/oldtimer
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="bodytypes/roadster"
+      type="bodytypes/roadster"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      bodytypes/roadster
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="bodytypes/sports"
+      type="bodytypes/sports"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      bodytypes/sports
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="bodytypes/station"
+      type="bodytypes/station"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      bodytypes/station
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="bodytypes/van"
+      type="bodytypes/van"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      bodytypes/van
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="404"
+      type="404"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      404
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="android"
+      type="android"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      android
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="appIcon"
+      type="appIcon"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      appIcon
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="arrow"
+      type="arrow"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      arrow
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="arrowTop"
+      type="arrowTop"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      arrowTop
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="attention"
+      type="attention"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      attention
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="auto24"
+      type="auto24"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      auto24
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="bubble"
+      type="bubble"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      bubble
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="bubbles"
+      type="bubbles"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      bubbles
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="car-valuation"
+      type="car-valuation"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      car-valuation
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="carInsertion"
+      type="carInsertion"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      carInsertion
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="carInsertionEdit"
+      type="carInsertionEdit"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      carInsertionEdit
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="close"
+      type="close"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      close
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="contract"
+      type="contract"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      contract
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="counselor"
+      type="counselor"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      counselor
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="delete"
+      type="delete"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      delete
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="download"
+      type="download"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      download
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="edit"
+      type="edit"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      edit
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="emission-badge-2"
+      type="emission-badge-2"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      emission-badge-2
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="emission-badge-3"
+      type="emission-badge-3"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      emission-badge-3
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="emission-badge-4"
+      type="emission-badge-4"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      emission-badge-4
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="emission-badge-5"
+      type="emission-badge-5"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      emission-badge-5
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="facebook"
+      type="facebook"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      facebook
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="favorits"
+      type="favorits"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      favorits
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="finance24"
+      type="finance24"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      finance24
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="flag/eu"
+      type="flag/eu"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      flag/eu
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="flag/de"
+      type="flag/de"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      flag/de
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="flag/be"
+      type="flag/be"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      flag/be
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="flag/fr"
+      type="flag/fr"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      flag/fr
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="flag/it"
+      type="flag/it"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      flag/it
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="flag/lu"
+      type="flag/lu"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      flag/lu
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="flag/nl"
+      type="flag/nl"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      flag/nl
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="flag/es"
+      type="flag/es"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      flag/es
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="flag/at"
+      type="flag/at"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      flag/at
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="google"
+      type="google"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      google
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="googleplus"
+      type="googleplus"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      googleplus
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="heart"
+      type="heart"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      heart
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="hook"
+      type="hook"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      hook
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="hookSquare"
+      type="hookSquare"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      hookSquare
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="immo24"
+      type="immo24"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      immo24
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="info"
+      type="info"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      info
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="instagram"
+      type="instagram"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      instagram
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="ios"
+      type="ios"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      ios
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="lifestyle/familycar"
+      type="lifestyle/familycar"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      lifestyle/familycar
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="lifestyle/firstcar"
+      type="lifestyle/firstcar"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      lifestyle/firstcar
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="lifestyle/fourxfour"
+      type="lifestyle/fourxfour"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      lifestyle/fourxfour
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="lifestyle/fuelsaver"
+      type="lifestyle/fuelsaver"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      lifestyle/fuelsaver
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="lifestyle/luxury"
+      type="lifestyle/luxury"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      lifestyle/luxury
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="lifestyle/roadster-l"
+      type="lifestyle/roadster-l"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      lifestyle/roadster-l
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="location"
+      type="location"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      location
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="mail"
+      type="mail"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      mail
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="navigation/car"
+      type="navigation/car"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      navigation/car
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="navigation/caravan"
+      type="navigation/caravan"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      navigation/caravan
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="navigation/motocycle"
+      type="navigation/motocycle"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      navigation/motocycle
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="navigation/truck"
+      type="navigation/truck"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      navigation/truck
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="people"
+      type="people"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      people
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="phone"
+      type="phone"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      phone
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="pin-car-xl"
+      type="pin-car-xl"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      pin-car-xl
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="pin"
+      type="pin"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      pin
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="pinCar"
+      type="pinCar"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      pinCar
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="pinMoto"
+      type="pinMoto"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      pinMoto
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="pinterest"
+      type="pinterest"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      pinterest
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="placeholder-car"
+      type="placeholder-car"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      placeholder-car
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="placeholder-moto"
+      type="placeholder-moto"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      placeholder-moto
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="placeholder-truck"
+      type="placeholder-truck"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      placeholder-truck
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="plus"
+      type="plus"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      plus
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="print"
+      type="print"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      print
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="saved-search"
+      type="saved-search"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      saved-search
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="scout24"
+      type="scout24"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      scout24
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="search"
+      type="search"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      search
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="security"
+      type="security"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      security
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="sharing"
+      type="sharing"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      sharing
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="star-half"
+      type="star-half"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      star-half
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="star"
+      type="star"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      star
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="t-online"
+      type="t-online"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      t-online
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="tip"
+      type="tip"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      tip
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="truckscout"
+      type="truckscout"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      truckscout
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="twitter"
+      type="twitter"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      twitter
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="vehicles"
+      type="vehicles"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      vehicles
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="whatsapp"
+      type="whatsapp"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      whatsapp
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="windows"
+      type="windows"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      windows
+    </p>
+  </li>
+  <li
+    style={
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "border": "1px solid #fff",
+        "float": "left",
+        "height": "130px",
+        "listStyle": "none",
+        "marginBottom": "20px",
+        "marginLeft": "20px",
+        "padding": "20px 10px 10px",
+        "textAlign": "center",
+        "width": "108px",
+      }
+    }
+  >
+    <as24-icon
+      class="sc-icon-xxl "
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "inline-block",
+          "height": "50px",
+          "width": "50px",
+        }
+      }
+      title="youtube"
+      type="youtube"
+    />
+    <p
+      style={
+        Object {
+          "fontSize": "13px",
+          "height": "40px",
+          "paddingTop": 0,
+          "wordBreak": "break-all",
+        }
+      }
+    >
+      youtube
+    </p>
+  </li>
+</ul>
+`;
+
 exports[`Storyshots Core|Atoms/Icon icons 1`] = `
-<div>
-  <div
+<ul>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -11,18 +4266,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="bodytypes/compact"
       type="bodytypes/compact"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -31,18 +4287,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="bodytypes/delivery"
       type="bodytypes/delivery"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -51,18 +4308,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="bodytypes/electro-hybrid-gas"
       type="bodytypes/electro-hybrid-gas"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -71,18 +4329,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="bodytypes/limousine"
       type="bodytypes/limousine"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -91,18 +4350,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="bodytypes/moto-chopper"
       type="bodytypes/moto-chopper"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -111,18 +4371,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="bodytypes/moto-classic"
       type="bodytypes/moto-classic"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -131,18 +4392,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="bodytypes/moto-enduro"
       type="bodytypes/moto-enduro"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -151,18 +4413,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="bodytypes/moto-naked"
       type="bodytypes/moto-naked"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -171,18 +4434,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="bodytypes/moto-quad"
       type="bodytypes/moto-quad"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -191,18 +4455,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="bodytypes/moto-scooter"
       type="bodytypes/moto-scooter"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -211,18 +4476,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="bodytypes/moto-sports"
       type="bodytypes/moto-sports"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -231,18 +4497,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="bodytypes/moto-tourer"
       type="bodytypes/moto-tourer"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -251,18 +4518,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="bodytypes/moto-touring_enduro"
       type="bodytypes/moto-touring_enduro"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -271,18 +4539,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="bodytypes/offroad"
       type="bodytypes/offroad"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -291,18 +4560,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="bodytypes/oldtimer"
       type="bodytypes/oldtimer"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -311,18 +4581,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="bodytypes/roadster"
       type="bodytypes/roadster"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -331,18 +4602,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="bodytypes/sports"
       type="bodytypes/sports"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -351,18 +4623,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="bodytypes/station"
       type="bodytypes/station"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -371,18 +4644,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="bodytypes/van"
       type="bodytypes/van"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -391,18 +4665,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="404"
       type="404"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -411,18 +4686,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="android"
       type="android"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -431,18 +4707,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="appIcon"
       type="appIcon"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -451,18 +4728,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="arrow"
       type="arrow"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -471,18 +4749,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="arrowTop"
       type="arrowTop"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -491,18 +4770,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="attention"
       type="attention"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -511,18 +4791,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="auto24"
       type="auto24"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -531,18 +4812,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="bubble"
       type="bubble"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -551,18 +4833,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="bubbles"
       type="bubbles"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -571,18 +4854,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="car-valuation"
       type="car-valuation"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -591,18 +4875,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="carInsertion"
       type="carInsertion"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -611,18 +4896,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="carInsertionEdit"
       type="carInsertionEdit"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -631,18 +4917,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="close"
       type="close"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -651,18 +4938,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="contract"
       type="contract"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -671,18 +4959,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="counselor"
       type="counselor"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -691,18 +4980,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="delete"
       type="delete"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -711,18 +5001,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="download"
       type="download"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -731,18 +5022,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="edit"
       type="edit"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -751,18 +5043,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="emission-badge-2"
       type="emission-badge-2"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -771,18 +5064,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="emission-badge-3"
       type="emission-badge-3"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -791,18 +5085,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="emission-badge-4"
       type="emission-badge-4"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -811,18 +5106,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="emission-badge-5"
       type="emission-badge-5"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -831,18 +5127,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="facebook"
       type="facebook"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -851,18 +5148,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="favorits"
       type="favorits"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -871,18 +5169,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="finance24"
       type="finance24"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -891,18 +5190,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="flag/eu"
       type="flag/eu"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -911,18 +5211,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="flag/de"
       type="flag/de"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -931,18 +5232,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="flag/be"
       type="flag/be"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -951,18 +5253,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="flag/fr"
       type="flag/fr"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -971,18 +5274,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="flag/it"
       type="flag/it"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -991,18 +5295,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="flag/lu"
       type="flag/lu"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1011,18 +5316,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="flag/nl"
       type="flag/nl"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1031,18 +5337,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="flag/es"
       type="flag/es"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1051,18 +5358,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="flag/at"
       type="flag/at"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1071,18 +5379,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="google"
       type="google"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1091,18 +5400,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="googleplus"
       type="googleplus"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1111,18 +5421,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="heart"
       type="heart"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1131,18 +5442,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="hook"
       type="hook"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1151,18 +5463,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="hookSquare"
       type="hookSquare"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1171,18 +5484,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="immo24"
       type="immo24"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1191,18 +5505,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="info"
       type="info"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1211,18 +5526,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="instagram"
       type="instagram"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1231,18 +5547,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="ios"
       type="ios"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1251,18 +5568,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="lifestyle/familycar"
       type="lifestyle/familycar"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1271,18 +5589,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="lifestyle/firstcar"
       type="lifestyle/firstcar"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1291,18 +5610,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="lifestyle/fourxfour"
       type="lifestyle/fourxfour"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1311,18 +5631,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="lifestyle/fuelsaver"
       type="lifestyle/fuelsaver"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1331,18 +5652,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="lifestyle/luxury"
       type="lifestyle/luxury"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1351,18 +5673,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="lifestyle/roadster-l"
       type="lifestyle/roadster-l"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1371,18 +5694,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="location"
       type="location"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1391,18 +5715,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="mail"
       type="mail"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1411,18 +5736,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="navigation/car"
       type="navigation/car"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1431,18 +5757,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="navigation/caravan"
       type="navigation/caravan"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1451,18 +5778,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="navigation/motocycle"
       type="navigation/motocycle"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1471,18 +5799,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="navigation/truck"
       type="navigation/truck"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1491,18 +5820,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="people"
       type="people"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1511,18 +5841,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="phone"
       type="phone"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1531,18 +5862,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="pin-car-xl"
       type="pin-car-xl"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1551,18 +5883,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="pin"
       type="pin"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1571,18 +5904,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="pinCar"
       type="pinCar"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1591,18 +5925,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="pinMoto"
       type="pinMoto"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1611,18 +5946,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="pinterest"
       type="pinterest"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1631,18 +5967,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="placeholder-car"
       type="placeholder-car"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1651,18 +5988,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="placeholder-moto"
       type="placeholder-moto"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1671,18 +6009,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="placeholder-truck"
       type="placeholder-truck"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1691,18 +6030,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="plus"
       type="plus"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1711,18 +6051,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="print"
       type="print"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1731,18 +6072,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="saved-search"
       type="saved-search"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1751,18 +6093,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="scout24"
       type="scout24"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1771,18 +6114,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="search"
       type="search"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1791,18 +6135,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="security"
       type="security"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1811,18 +6156,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="sharing"
       type="sharing"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1831,18 +6177,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="star-half"
       type="star-half"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1851,18 +6198,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="star"
       type="star"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1871,18 +6219,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="t-online"
       type="t-online"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1891,18 +6240,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="tip"
       type="tip"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1911,18 +6261,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="truckscout"
       type="truckscout"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1931,18 +6282,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="twitter"
       type="twitter"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1951,18 +6303,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="vehicles"
       type="vehicles"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1971,18 +6324,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="whatsapp"
       type="whatsapp"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -1991,18 +6345,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="windows"
       type="windows"
     />
-  </div>
-  <div
+  </li>
+  <li
     style={
       Object {
         "backgroundColor": "transparent",
@@ -2011,18 +6366,19 @@ exports[`Storyshots Core|Atoms/Icon icons 1`] = `
         "display": "inline-block",
         "margin": "0.5em",
         "padding": "0.5em",
+        "verticalAlign": "top",
       }
     }
   >
     <as24-icon
-      class="sc-icon-xl "
+      class="sc-icon-xxl "
       onClick={[Function]}
       style={Object {}}
       title="youtube"
       type="youtube"
     />
-  </div>
-</div>
+  </li>
+</ul>
 `;
 
 exports[`Storyshots Core|Atoms/Icon usage 1`] = `
