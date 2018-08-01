@@ -10,7 +10,7 @@ declare global {
   }
 }
 
-interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement | HTMLAnchorElement> {
+interface Props {
   /**
    * defines notification color
    */
@@ -29,7 +29,7 @@ interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement | HTMLAncho
   /**
    * closes notification after [timeout] ms
    */
-  timeout?: number
+  // timeout?: number
 
   /**
    * Callback to run when notification is closed
@@ -47,7 +47,7 @@ const intervalCheckFrequency = 100
 /**
  * Notification Component - Shows a notification
  */
-class Notification extends React.Component<Props> {
+export class Notification extends React.Component<Props> {
   private isShownCronCheck: number | null = null
   private targetId: string
   private id: string
@@ -58,8 +58,6 @@ class Notification extends React.Component<Props> {
 
     this.targetId = randomStringId()
     this.id = randomStringId()
-
-    console.log(this.id)
   }
 
   componentDidMount() {
@@ -87,15 +85,14 @@ class Notification extends React.Component<Props> {
         <div id={this.targetId} />
         <as24-notification
           type={this.props.type}
-          id={this.props.id}
-          data-id={this.props.id}
+          id={this.id}
           target={`#${this.id}`}
           title={this.props.title}
-          close={this.props.close !== undefined ? this.props.close : true}
+          {...(this.props.close ? { close: true } : {})}
           class="show"
-          timeout={this.props.timeout}
+          // timeout={`${this.props.timeout}`}
         >
-          {this.props.title}
+          {this.props.children || undefined}
         </as24-notification>
       </div>
     )
