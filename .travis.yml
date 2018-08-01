@@ -23,5 +23,5 @@ script:
 - yarn run build-storybook
 after_success:
 - codecov
-- if [ "$TRAVIS_PULL_REQUEST" != "true" ] && [ "$TRAVIS_BRANCH" == "master" ]; then
+- if [ "$TRAVIS_BRANCH" == "master" ]; then
   bash ./gh-pages-deploy.sh; fi
