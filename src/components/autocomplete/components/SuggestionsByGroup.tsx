@@ -1,8 +1,7 @@
 import * as React from 'react'
 
-import Groups, { IImmutableGroups } from '../datatypes/Groups'
+import Groups from '../datatypes/Groups'
 import { equality } from '../datatypes/IBaseType'
-import { IImmutableInput, IInput } from '../datatypes/Input'
 import ISuggestionsBy from './ISuggestionsBy'
 import SuggestionItem from './SuggestionItem'
 

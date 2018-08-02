@@ -1,7 +1,6 @@
 import * as React from 'react'
 
 import { equality } from '../datatypes/IBaseType'
-import { IImmutableInput, IInput } from '../datatypes/Input'
 import RelationalList, { IImmutableRelationalItem, IImmutableRelationalList } from '../datatypes/RelationalList'
 import ISuggestionsBy from './ISuggestionsBy'
 import SuggestionItem from './SuggestionItem'

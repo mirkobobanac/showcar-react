@@ -1,6 +1,6 @@
-import { List, Record } from '../immutability/Immutable'
+import { List, Record } from '../../../immutability/Immutable'
 import BaseType from './IBaseType'
-import { IImmutableInput, IInput, immutableInput, itemMatchesSearch } from './Input'
+import { IImmutableInput, immutableInput, itemMatchesSearch } from './Input'
 
 export type IImmutablePlainList<T> = List<IImmutablePlainItem<T>>
 

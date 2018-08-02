@@ -1,6 +1,5 @@
 import * as React from 'react'
 
-import { IImmutableInput, IInput } from '../datatypes/Input'
 import PlainList from '../datatypes/PlainList'
 import ISuggestionsBy from './ISuggestionsBy'
 import SuggestionItem from './SuggestionItem'

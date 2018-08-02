@@ -1,14 +1,13 @@
-import * as Immutable from 'immutable'
 import * as React from 'react'
 import OutsideClickDetector from '../outsideclickdetector/OutsideClickDetector'
 import Input from './components/Input'
 import SuggestionsByGroup from './components/SuggestionsByGroup'
 import SuggestionByPlainList from './components/SuggestionsByPlainList'
 import SuggestionByRelationalList from './components/SuggestionsByRelationalList'
-import Groups, { IGroup, IGroupedData, IImmutableGroups } from './datatypes/Groups'
+import Groups, { IGroupedData } from './datatypes/Groups'
 import { IInput } from './datatypes/Input'
-import PlainList, { IImmutablePlainList, IPlainListData } from './datatypes/PlainList'
-import RelationalList, { IImmutableRelationalList, IRelationalListData } from './datatypes/RelationalList'
+import PlainList, { IPlainListData } from './datatypes/PlainList'
+import RelationalList, { IRelationalListData } from './datatypes/RelationalList'
 
 // CSS styles
 import './autocomplete.scss'

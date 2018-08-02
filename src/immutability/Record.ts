@@ -16,7 +16,7 @@ class Record<T extends Object> {
   }
 
   public set<K extends keyof T>(key: K, value: T[K]): Record<T> {
-    return new Record(Object.assign({}, this._record, { k: value }))
+    return new Record(Object.assign({}, this._record, { [key]: value }))
   }
 
   get toJS() {

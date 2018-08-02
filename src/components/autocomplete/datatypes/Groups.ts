@@ -1,4 +1,4 @@
-import { List, Record } from '../immutability/Immutable'
+import { List, Record } from '../../../immutability/Immutable'
 import BaseType from './IBaseType'
 import { IImmutableInput, IInput, immutableInput, itemMatchesSearch } from './Input'
 

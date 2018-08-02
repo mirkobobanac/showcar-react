@@ -1,4 +1,4 @@
-import Record from '../immutability/Record'
+import Record from '../../../immutability/Record'
 
 export type IImmutableInput<T> = Record<IInput<T>>
 
