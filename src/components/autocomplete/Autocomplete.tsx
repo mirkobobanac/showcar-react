@@ -47,7 +47,7 @@ function assertNever(x: never): never {
   throw new Error('Missing data type case: ' + x)
 }
 
-class Autocomplete<T> extends React.Component<IProps<T>, IState<T>> {
+export class Autocomplete<T> extends React.Component<IProps<T>, IState<T>> {
   /**
    * DOM references. We put this outside the react state because they are not linked to visual changes inside React.
    * They are used for DOM scrolling which is done outside of React.

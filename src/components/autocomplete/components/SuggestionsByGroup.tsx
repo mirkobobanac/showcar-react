@@ -26,7 +26,7 @@ export const SuggestionsByGroup: React.SFC<IProps<any>> = ({
         <div className="react-autocomplete__list-item react-autocomplete__separator">{group.get('label')}</div>
         {group
           .get('items')
-          .map(item => (
+          .toJs.map(item => (
             <SuggestionItem
               item={item}
               key={`${group.get('label')}_${item.get('id')}`}

@@ -33,7 +33,7 @@ export const SuggestionByRelationalList: React.SFC<IProps<any>> = ({
   disableMatchHighlighting
 }) => (
   <div className="react-autocomplete__list react-autocomplete__list--visible" ref={suggestionsRef}>
-    {list.items.filterNot(itemHasParentInList(list.items)).map(item => (
+    {list.items.filterNot(itemHasParentInList(list.items)).toJs.map(item => (
       <div key={item.get('id')}>
         <SuggestionItem
           item={item}

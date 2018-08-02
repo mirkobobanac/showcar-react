@@ -17,7 +17,7 @@ export const SuggestionByPlainList: React.SFC<IProps<any>> = ({
   disableMatchHighlighting
 }) => (
   <div className="react-autocomplete__list react-autocomplete__list--visible" ref={suggestionsRef}>
-    {list.items.map(item => (
+    {list.items.toJs.map(item => (
       <div key={item.get('id')}>
         <SuggestionItem
           item={item}
