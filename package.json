@@ -73,7 +73,7 @@
     "storybook-addon-jest": "^0.0.1",
     "storybook-addon-jsx": "^5.4.0",
     "ts-jest": "^23.0.1",
-    "typescript": "3.0.0-rc",
+    "typescript": "^3.0.1",
     "uglify-es": "^3.3.9"
   },
   "peerDependencies": {
