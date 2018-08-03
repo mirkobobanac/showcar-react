@@ -25,22 +25,19 @@ const immutableGroups = <T>(groups: Array<IGroup<T>>): IImmutableGroups<T> => ne
 
 const immutableGroup = <T>(group: IGroup<T>): IImmutableGroup<T> =>
   new Record({
-    label: group.label,
-    items: new List(group.items.map(immutableInput))
+    items: new List(group.items.map(immutableInput)),
+    label: group.label
   })
 
 class Groups<T> implements BaseType<T> {
+  // tslint:disable-next-line:variable-name
   private readonly _items: IImmutableGroups<T>
 
   constructor(groups: IImmutableGroups<T>)
   // tslint:disable-next-line: unified-signatures
   constructor(groups: Array<IGroup<T>>)
   constructor(groups: IImmutableGroups<T> | Array<IGroup<T>>) {
-    if (Array.isArray(groups)) {
-      this._items = immutableGroups(groups)
-    } else {
-      this._items = groups
-    }
+    this._items = Array.isArray(groups) ? immutableGroups(groups) : groups
   }
 
   get items(): IImmutableGroups<T> {

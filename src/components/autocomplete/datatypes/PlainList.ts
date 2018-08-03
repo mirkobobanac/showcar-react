@@ -20,8 +20,8 @@ export type IPlainListData<T> = {
 
 const PlainItemToInput = <T>(item: IImmutablePlainItem<T>): IImmutableInput<T> =>
   immutableInput({
-    label: item.get('label'),
-    id: item.get('id')
+    id: item.get('id'),
+    label: item.get('label')
   })
 
 const immutablePlainData = <T>(data: IPlainList<T>): IImmutablePlainList<T> => new List(data).map(immutablePlainItem)
@@ -33,17 +33,14 @@ const immutablePlainItem = <T>(item: IPlainItem<T>): IImmutablePlainItem<T> =>
   })
 
 class PlainList<T> implements BaseType<T> {
+  // tslint:disable-next-line:variable-name
   private readonly _items: IImmutablePlainList<T>
 
   constructor(items: IImmutablePlainList<T>)
   // tslint:disable-next-line: unified-signatures
   constructor(items: IPlainList<T>)
   constructor(items: IImmutablePlainList<T> | IPlainList<T>) {
-    if (Array.isArray(items)) {
-      this._items = immutablePlainData(items)
-    } else {
-      this._items = items
-    }
+    this._items = Array.isArray(items) ? immutablePlainData(items) : items
   }
 
   get items() {

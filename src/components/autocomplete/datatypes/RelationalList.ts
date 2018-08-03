@@ -21,8 +21,8 @@ export type IRelationalListData<T> = {
 
 const relationalItemToInput = <T>(item: IImmutableRelationalItem<T>): IImmutableInput<T> =>
   immutableInput({
-    label: item.get('label'),
-    id: item.get('id')
+    id: item.get('id'),
+    label: item.get('label')
   })
 
 const immutableRelationalData = <T>(data: IRelationalList<T>): IImmutableRelationalList<T> =>
@@ -36,17 +36,14 @@ const immutableRelationalItem = <T>(item: IRelationalItem<T>): IImmutableRelatio
   })
 
 class RelationalList<T> implements BaseType<T> {
+  // tslint:disable-next-line:variable-name
   private readonly _items: IImmutableRelationalList<T>
 
   constructor(items: IImmutableRelationalList<T>)
   // tslint:disable-next-line: unified-signatures
   constructor(items: IRelationalList<T>)
   constructor(items: IImmutableRelationalList<T> | IRelationalList<T>) {
-    if (Array.isArray(items)) {
-      this._items = immutableRelationalData(items)
-    } else {
-      this._items = items
-    }
+    this._items = Array.isArray(items) ? immutableRelationalData(items) : items
   }
 
   get items() {
