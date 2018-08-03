@@ -13,11 +13,11 @@ storiesOf('Core|Organisms/Autocomplete', module)
     'Plain List',
     withState({ selected: null as any }, store => (
       <div>
-        <h4>Plain list</h4>
-        <p>
-          > Flat list of items<br />
+        <h4 className="sc-font-l">Plain list</h4>
+        <blockquote>
+          Flat list of items<br />
           <br />
-        </p>
+        </blockquote>
         <Autocomplete
           source={props.source}
           selected={store.state.selected}
@@ -40,11 +40,11 @@ storiesOf('Core|Organisms/Autocomplete', module)
     'Relational List',
     withState({ selected: null as any }, store => (
       <div>
-        <h4>Relational list</h4>
-        <p>
-          > Allows items to be nested under a parent by providing a `parentId`<br />
+        <h4 className="sc-font-l">Relational list</h4>
+        <blockquote>
+          Allows items to be nested under a parent by providing a `parentId`<br />
           <br />
-        </p>
+        </blockquote>
         <Autocomplete
           source={{ type: 'relationalList', data: sources.relational }}
           selected={store.state.selected}
@@ -66,11 +66,11 @@ storiesOf('Core|Organisms/Autocomplete', module)
     'Group List',
     withState({ selected: null as any }, store => (
       <div>
-        <h4>Grouped list</h4>
-        <p>
-          > Shows items by group sections<br />
+        <h4 className="sc-font-l">Grouped list</h4>
+        <blockquote>
+          Shows items by group sections<br />
           <br />
-        </p>
+        </blockquote>
         <Autocomplete
           source={{ type: 'grouped', data: sources.groups }}
           selected={store.state.selected}
