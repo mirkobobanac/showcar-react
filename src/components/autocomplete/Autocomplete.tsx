@@ -179,7 +179,7 @@ export class Autocomplete<T> extends React.Component<IProps<T>, IState<T>> {
       const item = this.state.items
         .filter(this.state.filter ? this.state.search : null)
         .itemByIndex(this.state.highlighted)
-      item && this.handleSelectedItem(item.get('id'))
+      item && this.handleSelectedItem(item.id)
     },
 
     shiftHighlighted: (positions: number) => (_: React.KeyboardEvent<HTMLInputElement>) =>
@@ -232,18 +232,16 @@ export class Autocomplete<T> extends React.Component<IProps<T>, IState<T>> {
       this.setState<'showList' & ('showlist' | 'highlighted')>(
         (_prevState, props) => {
           const highlighted = props.selected ? _prevState.items.indexById(props.selected.id) : 0
-          return Object.assign(
-            {
-              showList: true
-            },
+          return {
+            showList: true,
             // For the case where we are opening the list, we compute the highlighted position. This has advantages
             // compared to doing it at close time (some cases are not caught that way)
-            !_prevState.showList
+            ...(!_prevState.showList
               ? {
                   highlighted: highlighted !== -1 ? highlighted : 0
                 }
-              : {}
-          )
+              : {})
+          }
         },
         this.highlighted.scrollToHighlighted // this needs to come after the suggestions list has been opened so the DOM ref is available to scroll
       ),

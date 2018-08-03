@@ -41,11 +41,11 @@ const SuggestionItem: React.SFC<IProps<any>> = ({
     onMouseEnter={(e: React.MouseEvent<HTMLLIElement>) => onMouseEnter && onMouseEnter(e.currentTarget)}
     ref={itemRef}
     className={`${className} ${selected ? 'react-autocomplete__list-item--selected' : ''}`}
-    onClick={_ => onClick(item.get('id'))}
+    onClick={_ => onClick(item.id)}
   >
     <span
       dangerouslySetInnerHTML={{
-        __html: !disableMatchHighlighting && search ? highlightMatches(item.get('label'), search) : item.get('label')
+        __html: !disableMatchHighlighting && search ? highlightMatches(item.label, search) : item.label
       }}
     />
   </li>

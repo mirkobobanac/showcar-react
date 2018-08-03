@@ -1,4 +1,4 @@
-import { List, Record } from '../../../immutability/Immutable'
+import { List, Record, RecordR } from '../../../immutability/Immutable'
 import BaseType from './IBaseType'
 import { IImmutableInput, IInput, immutableInput, itemMatchesSearch } from './Input'
 
@@ -14,8 +14,6 @@ export type IGroup<T> = {
   items: Array<IInput<T>>
 }
 
-type RecordR<T> = Record<T>
-
 type IImmutableGroup<T> = RecordR<{
   label: string
   items: List<IImmutableInput<T>>
@@ -24,7 +22,7 @@ type IImmutableGroup<T> = RecordR<{
 const immutableGroups = <T>(groups: Array<IGroup<T>>): IImmutableGroups<T> => new List(groups).map(immutableGroup)
 
 const immutableGroup = <T>(group: IGroup<T>): IImmutableGroup<T> =>
-  new Record({
+  Record.new({
     items: new List(group.items.map(immutableInput)),
     label: group.label
   })
@@ -49,8 +47,8 @@ class Groups<T> implements BaseType<T> {
       ? this
       : new Groups(
           this.items
-            .map(group => group.set('items', group.get('items').filter(itemMatchesSearch(search))))
-            .filterNot(group => group.get('items').isEmpty())
+            .map(group => group.set('items', group.items.filter(itemMatchesSearch(search))))
+            .filterNot(group => group.items.isEmpty())
         )
   }
 
@@ -63,13 +61,13 @@ class Groups<T> implements BaseType<T> {
   }
 
   public itemById = (id: T): IImmutableInput<T> | undefined =>
-    this.flatten().find((item: IImmutableInput<T>) => item.get('id') === id)
+    this.flatten().find((item: IImmutableInput<T>) => item.id === id)
 
   public itemByIndex = (id: number) => this.flatten().get(id)
 
-  public indexById = (id: T | null) => this.flatten().findIndex(item => item.get('id') === id) || -1
+  public indexById = (id: T | null) => this.flatten().findIndex(item => item.id === id) || -1
 
-  private flatten = (): List<IImmutableInput<T>> => this.items.flatMap(group => group.get('items'))
+  private flatten = (): List<IImmutableInput<T>> => this.items.flatMap(group => group.items)
 }
 
 export default Groups

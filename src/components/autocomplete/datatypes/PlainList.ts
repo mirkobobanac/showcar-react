@@ -1,10 +1,10 @@
-import { List, Record } from '../../../immutability/Immutable'
+import { List, Record, RecordR } from '../../../immutability/Immutable'
 import BaseType from './IBaseType'
 import { IImmutableInput, immutableInput, itemMatchesSearch } from './Input'
 
 export type IImmutablePlainList<T> = List<IImmutablePlainItem<T>>
 
-export type IImmutablePlainItem<T> = Record<IPlainItem<T>>
+export type IImmutablePlainItem<T> = RecordR<IPlainItem<T>>
 
 export type IPlainItem<T> = {
   id: T
@@ -20,14 +20,14 @@ export type IPlainListData<T> = {
 
 const PlainItemToInput = <T>(item: IImmutablePlainItem<T>): IImmutableInput<T> =>
   immutableInput({
-    id: item.get('id'),
-    label: item.get('label')
+    id: item.id,
+    label: item.label
   })
 
 const immutablePlainData = <T>(data: IPlainList<T>): IImmutablePlainList<T> => new List(data).map(immutablePlainItem)
 
 const immutablePlainItem = <T>(item: IPlainItem<T>): IImmutablePlainItem<T> =>
-  new Record({
+  Record.new({
     id: item.id,
     label: item.label
   })
@@ -65,11 +65,11 @@ class PlainList<T> implements BaseType<T> {
     return this.items.size
   }
 
-  public itemById = (id: T): IImmutableInput<T> | undefined => this.items.find(i => i.get('id') === id)
+  public itemById = (id: T): IImmutableInput<T> | undefined => this.items.find(i => i.id === id)
 
   public itemByIndex = (id: number) => this.items.get(id)
 
-  public indexById = (id: T | null) => this.items.findIndex(item => item.get('id') === id) || -1
+  public indexById = (id: T | null) => this.items.findIndex(item => item.id === id) || -1
 }
 
 export default PlainList

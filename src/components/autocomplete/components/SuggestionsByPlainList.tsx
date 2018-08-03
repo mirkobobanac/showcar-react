@@ -18,14 +18,14 @@ export const SuggestionByPlainList: React.SFC<IProps<any>> = ({
 }) => (
   <div className="react-autocomplete__list react-autocomplete__list--visible" ref={suggestionsRef}>
     {list.items.toJs.map(item => (
-      <div key={item.get('id')}>
+      <div key={item.id}>
         <SuggestionItem
           item={item}
           search={search}
           className="react-autocomplete__list-item"
-          selected={!!highlighted && highlighted.get('id') === item.get('id')}
-          itemRef={!!highlighted && highlighted.get('id') === item.get('id') ? highlightedRef : undefined}
-          onClick={_ => onClick(item.get('id'))}
+          selected={!!highlighted && highlighted.id === item.id}
+          itemRef={!!highlighted && highlighted.id === item.id ? highlightedRef : undefined}
+          onClick={_ => onClick(item.id)}
           onMouseEnter={mouseEnterRef(item.toJS)}
           disableMatchHighlighting={disableMatchHighlighting}
         />

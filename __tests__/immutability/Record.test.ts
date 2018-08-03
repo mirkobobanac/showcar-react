@@ -1,13 +1,14 @@
 import { Record } from '../../src/immutability/Immutable'
 
-const record = new Record({
+const record = Record.new({
   s: 'foo',
   n: 12
 })
 
 describe('get', () => {
-  it('returns the proper value', () => {
-    expect(record.get('s')).toBe('foo')
+  it('returns the proper value, via get or `.` accessor property', () => {
+    expect(record.s).toBe('foo')
+    expect(record.n).toBe(12)
     expect(record.get('n')).toBe(12)
   })
 })

@@ -1,10 +1,10 @@
-import { List, Record } from '../../../immutability/Immutable'
+import { List, Record, RecordR } from '../../../immutability/Immutable'
 import BaseType, { equality } from './IBaseType'
 import { IImmutableInput, immutableInput, itemMatchesSearch } from './Input'
 
 export type IImmutableRelationalList<T> = List<IImmutableRelationalItem<T>>
 
-export type IImmutableRelationalItem<T> = Record<IRelationalItem<T>>
+export type IImmutableRelationalItem<T> = RecordR<IRelationalItem<T>>
 
 export type IRelationalItem<T> = {
   id: T
@@ -21,15 +21,15 @@ export type IRelationalListData<T> = {
 
 const relationalItemToInput = <T>(item: IImmutableRelationalItem<T>): IImmutableInput<T> =>
   immutableInput({
-    id: item.get('id'),
-    label: item.get('label')
+    id: item.id,
+    label: item.label
   })
 
 const immutableRelationalData = <T>(data: IRelationalList<T>): IImmutableRelationalList<T> =>
   new List(data).map(immutableRelationalItem)
 
 const immutableRelationalItem = <T>(item: IRelationalItem<T>): IImmutableRelationalItem<T> =>
-  new Record({
+  Record.new({
     id: item.id,
     label: item.label,
     parentId: item.parentId
@@ -61,7 +61,7 @@ class RelationalList<T> implements BaseType<T> {
   }
 
   public filterByParentId(parentId: T): RelationalList<T> {
-    return new RelationalList(this.items.filter(item => equality(item.get('parentId'), parentId)))
+    return new RelationalList(this.items.filter(item => equality(item.parentId, parentId)))
   }
 
   public isEmpty(): boolean {
@@ -72,11 +72,11 @@ class RelationalList<T> implements BaseType<T> {
     return this.items.size
   }
 
-  public itemById = (id: T): IImmutableInput<T> | undefined => this.items.find(i => equality(id, i.get('id')))
+  public itemById = (id: T): IImmutableInput<T> | undefined => this.items.find(i => equality(id, i.id))
 
   public itemByIndex = (id: number) => this.items.get(id)
 
-  public indexById = (id: T | null) => this.items.findIndex(item => equality(item.get('id'), id)) || -1
+  public indexById = (id: T | null) => this.items.findIndex(item => equality(item.id, id)) || -1
 }
 
 export default RelationalList
