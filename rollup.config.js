@@ -5,6 +5,7 @@ import typescript from 'rollup-plugin-typescript2'
 import json from 'rollup-plugin-json'
 import { terser } from 'rollup-plugin-terser'
 import sass from 'rollup-plugin-sass'
+import visualizer from 'rollup-plugin-visualizer'
 
 const pkg = require('./package.json')
 
@@ -50,7 +51,7 @@ export default [
     output: {
       file: pkg.browser,
       format: 'iife',
-      sourcemap: false,
+      sourcemap: true,
       name: 'window.ShowcarReact', // name under which the output will be available globally (window)
       globals: {
         react: 'React'
@@ -76,7 +77,13 @@ export default [
       sourceMaps(),
       sass(),
       // Minify code
-      terser()
+      terser({
+        sourceMap: true
+      }),
+      visualizer({
+        filename: './dist/statistics/statistics.html',
+        title: 'Showcar-React'
+      })
     ]
   }
 ]
