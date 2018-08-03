@@ -1,11 +1,11 @@
-import React from 'react'
-import { storiesOf, addDecorator } from '@storybook/react'
+import { withState } from '@dump247/storybook-state'
+import { action } from '@storybook/addon-actions'
 import { withInfo } from '@storybook/addon-info'
-import { withKnobs, text, boolean, number } from '@storybook/addon-knobs'
+import { boolean, number, text, withKnobs } from '@storybook/addon-knobs'
+import { addDecorator, storiesOf } from '@storybook/react'
+import React from 'react'
 import { Autocomplete } from '../src/components/autocomplete/Autocomplete'
 import PlainList from '../src/components/autocomplete/datatypes/PlainList'
-import { action } from '@storybook/addon-actions'
-import { withState } from '@dump247/storybook-state'
 
 const props = {
   source: {
