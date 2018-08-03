@@ -9,6 +9,7 @@ ssh-add travis_ci_rsa
 
 # Create gh-pages dir
 mv ./storybook-static ./docs/storybook
+mv ./dist/statistics ./docs/statistics
 
 # Push to gh-pages
 yarn run gh-pages-deploy
