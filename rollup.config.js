@@ -6,6 +6,7 @@ import json from 'rollup-plugin-json'
 import { terser } from 'rollup-plugin-terser'
 import sass from 'rollup-plugin-sass'
 import visualizer from 'rollup-plugin-visualizer'
+import filesize from 'rollup-plugin-filesize'
 
 const pkg = require('./package.json')
 
@@ -38,7 +39,8 @@ export default [
       resolve(),
       // Resolve source maps to the original source
       sourceMaps(),
-      sass()
+      sass(),
+      filesize()
     ]
   },
 
@@ -83,7 +85,8 @@ export default [
       visualizer({
         filename: './dist/statistics/statistics.html',
         title: 'Showcar-React'
-      })
+      }),
+      filesize()
     ]
   }
 ]
