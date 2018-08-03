@@ -13,8 +13,7 @@
   "scripts": {
     "docs": "docsify serve ./",
     "tslint:fix": "tslint -c ./tslint.json --fix --project ./",
-    "prettier:fix": "prettier --write '*/**/*.{js,ts,tsx,json,md,scss,graphql,css}' '*.{js,ts,tsx,json,md,scss,graphql,css}'",
-    "pretest:all": "prettier --list-different '*/**/*.{js,ts,tsx,json,md,scss,graphql,css}' || (echo \"Problem with code format. Please do yarn run prettier:fix\" && exit 1)",
+    "prettier:fix": "prettier --write '*/**/*.{js,ts,tsx,json,md,scss,graphql,css}' '*.{js,ts,tsx,json,md,scss,graphql,css}'",    
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -s .storybook/assets",
     "gh-pages-deploy": "gh-pages -d docs --message 'Update docs & storybook' --repo 'git@github.com:Scout24/showcar-react-docs.git' --dotfiles",
@@ -22,7 +21,8 @@
     "build": "tsc --project ./tsconfig.rollup.json --declaration --module commonjs && rollup -c rollup.config.js",
     "test": "jest",
     "test:watch": "jest --notify --watch",
-    "test:coverage:publish": "codecov"
+    "test:coverage:publish": "codecov",
+    "test:prettier": "prettier --list-different '*/**/*.{js,ts,tsx,json,md,scss,graphql,css}' || (echo \"Problem with code format. Please do yarn run prettier:fix\" && exit 1)"
   },
   "dependencies": {
     "@types/node": "^10.5.2",

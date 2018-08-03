@@ -1,2 +1,8 @@
 tsconfig.json
 package.json
+storybook-static
+dist
+docs
+coverage
+.vscode
+.rpt2_cache
