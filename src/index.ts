@@ -4,7 +4,7 @@
 
 export { default as Button } from './components/button/Button'
 export { default as OutsideClickDetector } from './components/outsideclickdetector/OutsideClickDetector'
-export { default as AutoComplete } from './components/autocomplete/AutoComplete'
+export { default as Autocomplete } from './components/autocomplete/Autocomplete'
 export { default as Icon } from './components/icon/Icon'
 export { default as Notification } from './components/notification/Notification'
 export { default as Pagination } from './components/pagination/Pagination'
