@@ -4,6 +4,8 @@ import { withInfo } from '@storybook/addon-info'
 import { withKnobs, text, boolean, number } from '@storybook/addon-knobs'
 import { Autocomplete } from '../src/components/autocomplete/Autocomplete'
 import PlainList from '../src/components/autocomplete/datatypes/PlainList'
+import { action } from '@storybook/addon-actions'
+import { withState } from '@dump247/storybook-state'
 
 const props = {
   source: {
@@ -55,10 +57,26 @@ const props = {
 
 storiesOf('Core|Organisms/Autocomplete', module)
   .addDecorator(withKnobs)
-  .add('autocomplete', () => (
-    <div>
-      <Autocomplete {...props} />
-    </div>
-  ))
+  .add(
+    'Plain List',
+    withState({ selected: null as any }, store => (
+      <div>
+        <Autocomplete
+          source={props.source}
+          selected={store.state.selected}
+          onChange={action('search term changed')}
+          onSelect={i => {
+            store.set({ selected: i })
+            action(`entry selected`)(i)
+          }}
+          disabled={boolean('disabled', false)}
+          placeholder={text('placeholder', props.placeholder)}
+          suppressErrors={boolean('suppressErrors', false)}
+          errorMessage={text('errorMessage', 'no matches for term')}
+          hideArrow={boolean('hideArrow', false)}
+        />
+      </div>
+    ))
+  )
   .addDecorator(withInfo({ inline: true, header: false, source: false })(() => <Autocomplete {...props} />))
   .add('usage', () => <div />)
