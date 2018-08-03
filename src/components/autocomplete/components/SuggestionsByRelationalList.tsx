@@ -48,7 +48,7 @@ export const SuggestionByRelationalList: React.SFC<IProps<any>> = ({
           disableMatchHighlighting={disableMatchHighlighting}
         />
         {/* Optional indented children */}
-        {children(list.items)(item).map(child => (
+        {children(list.items)(item).toJs.map(child => (
           <SuggestionItem
             item={child}
             key={`${item.get('id')}-${child.get('id')}`}
