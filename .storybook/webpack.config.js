@@ -17,7 +17,16 @@ module.exports = (baseConfig, env, config) => {
 
   config.module.rules.push({
     test: /\.(ts|tsx)$/,
-    loader: require.resolve('awesome-typescript-loader')
+    loaders: require.resolve('awesome-typescript-loader')
+  })
+
+  config.module.rules.push({
+    test: /\.ts$/,
+    enforce: 'pre',
+    loader: 'tslint-loader',
+    options: {
+      emitErrors: true
+    }
   })
 
   // Wire-up story source

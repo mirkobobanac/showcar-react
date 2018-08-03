@@ -55,7 +55,7 @@ class List<T> {
   /**
    * Returns the value associated with the provided index
    */
-  get(index: number): T | undefined {
+  public get(index: number): T | undefined {
     return index < this.data.length ? this.data[index] : undefined
   }
 }
