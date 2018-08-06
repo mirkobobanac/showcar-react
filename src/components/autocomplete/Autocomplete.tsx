@@ -12,10 +12,8 @@ import RelationalList, { IRelationalListData } from './datatypes/RelationalList'
 // CSS styles
 import './autocomplete.scss'
 
-type IDataSource<T> = IGroupedData<T> | IRelationalListData<T> | IPlainListData<T>
-
 type IProps<T> = {
-  source: IDataSource<T>
+  source: IGroupedData<T> | IRelationalListData<T> | IPlainListData<T>
   selected: IInput<T> | null
   onChange?: (search: string) => void
   onSelect: (t: IInput<T> | null | undefined) => void
@@ -40,7 +38,7 @@ type IState<T> = {
 
   items: Groups<T> | RelationalList<T> | PlainList<T>
   lastSelected: IInput<T> | null
-  lastSourceData: IDataSource<T>['data']
+  lastSourceData: IProps<T>['source']['data']
 }
 
 function assertNever(x: never): never {
@@ -319,6 +317,7 @@ export class Autocomplete<T> extends React.Component<IProps<T>, IState<T>> {
                 mouseEnterRef={this.highlighted.setHighlighted}
                 suggestionsRef={this.highlighted.setSuggestionsContainerElement}
                 disableMatchHighlighting={disableMatchHighlighting}
+                customRenderer={this.props.source.customRenderer}
               />
             )) ||
             // Relational list suggestions

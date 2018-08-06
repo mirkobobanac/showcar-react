@@ -6,6 +6,15 @@ export type IImmutablePlainList<T> = List<IImmutablePlainItem<T>>
 
 export type IImmutablePlainItem<T> = RecordR<IPlainItem<T>>
 
+export type CustomeRenderer<T> = (
+  props: {
+    item: IPlainItem<T>
+    onClick: () => void
+    selected: boolean
+    search: string | null
+  }
+) => JSX.Element
+
 export type IPlainItem<T> = {
   id: T
   label: string
@@ -16,6 +25,10 @@ export type IPlainList<T> = Array<IPlainItem<T>>
 export type IPlainListData<T> = {
   type: 'plainList'
   data: IPlainList<T>
+  /**
+   * A custom renderer used to render each of the items
+   */
+  customRenderer?: CustomeRenderer<T>
 }
 
 const PlainItemToInput = <T>(item: IImmutablePlainItem<T>): IImmutableInput<T> =>
