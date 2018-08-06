@@ -37,3 +37,40 @@ export const IconizedRenderer: CustomeRenderer<number> = p => {
     </div>
   )
 }
+
+export const ThumbnailRenderer: CustomeRenderer<number> = p => {
+  return (
+    <div
+      onClick={p.onClick}
+      style={{
+        backgroundColor: p.selected ? 'rgba(0,0,0,0.2)' : 'transparent',
+        display: 'flex',
+        padding: '0.5em',
+        borderBottom: '1px solid #ccc',
+        cursor: 'pointer'
+      }}
+    >
+      <img
+        style={{
+          maxWidth: '120px',
+          maxHeight: '120px',
+          borderRadius: '10px',
+          marginRight: '0.7em'
+        }}
+        src={flatData.filter(s => s.id === p.item.id)[0].avatar}
+      />
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center'
+        }}
+      >
+        <h3 style={{ fontWeight: 'bold', fontSize: '1.1em', marginBottom: '0.1em', textTransform: 'capitalize' }}>
+          {p.item.label}
+        </h3>
+        <p style={{ color: '#999', fontSize: '0.9em' }}>Some text about {p.item.label} here </p>
+      </div>
+    </div>
+  )
+}

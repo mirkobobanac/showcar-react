@@ -7,7 +7,7 @@ import React from 'react'
 import { Autocomplete } from '../../src/components/autocomplete/Autocomplete'
 import PlainList, { CustomeRenderer, IPlainItem } from '../../src/components/autocomplete/datatypes/PlainList'
 import { flat as flatData, group as groupData, relational as relationalData } from './data'
-import { IconizedRenderer } from './FlatListCustomRenderers'
+import { IconizedRenderer, ThumbnailRenderer } from './FlatListCustomRenderers'
 
 storiesOf('Core|Organisms/Autocomplete', module)
   .addDecorator(withKnobs)
@@ -39,32 +39,97 @@ storiesOf('Core|Organisms/Autocomplete', module)
   )
   .add(
     'Custom Flat List',
-    withState({ selected: null as any }, store => (
-      <div>
-        <h4 className="sc-font-l">Flat Custom list</h4>
-        <blockquote>
-          Flat list of items w/ customized renderer<br />
-          <br />
-        </blockquote>
-        <Autocomplete
-          source={{
-            ...props.source,
-            customRenderer: IconizedRenderer
-          }}
-          selected={store.state.selected}
-          onChange={action('search term changed')}
-          onSelect={i => {
-            store.set({ selected: i })
-            action(`entry selected`)(i)
-          }}
-          disabled={boolean('disabled', false)}
-          placeholder={text('placeholder', props.placeholder)}
-          suppressErrors={boolean('suppressErrors', false)}
-          errorMessage={text('errorMessage', 'no matches for term')}
-          hideArrow={boolean('hideArrow', false)}
-        />
-      </div>
-    ))
+    withState({ selected: null as any, renderer: 'icon' }, store => {
+      const renderers = {
+        icon: IconizedRenderer,
+        thumbnail: ThumbnailRenderer
+      }
+      return (
+        <div>
+          <h4 className="sc-font-l">Flat Custom list</h4>
+          <blockquote>
+            Flat list of items w/ customized renderer<br />
+            <br />
+          </blockquote>
+          <div style={{ display: 'flex' }}>
+            <div style={{ width: '100%', maxWidth: '500px', marginRight: '2em' }}>
+              <Autocomplete
+                source={{
+                  ...props.source,
+                  customRenderer: store.state.renderer ? (renderers as any)[store.state.renderer] : undefined
+                }}
+                selected={store.state.selected}
+                onChange={action('search term changed')}
+                onSelect={i => {
+                  store.set({ selected: i })
+                  action(`entry selected`)(i)
+                }}
+                disabled={boolean('disabled', false)}
+                placeholder={text('placeholder', props.placeholder)}
+                suppressErrors={boolean('suppressErrors', false)}
+                errorMessage={text('errorMessage', 'no matches for term')}
+                hideArrow={boolean('hideArrow', false)}
+              />
+            </div>
+            <div>
+              Renderer: You can provide a custom renderer that will be used to render each of the items in the list.
+              <br />
+              <br />
+              <div style={{ display: 'flex' }}>
+                <input
+                  type="radio"
+                  id="icon"
+                  name="renderer"
+                  checked={store.state.renderer === 'icon'}
+                  onClick={() => store.set({ renderer: 'icon' })}
+                />
+                <label htmlFor="icon">
+                  {IconizedRenderer({
+                    onClick: () => {
+                      /**/
+                    },
+                    search: '',
+                    selected: false,
+                    item: flatData[0]
+                  })}
+                </label>
+              </div>
+              <br />
+              <div style={{ display: 'flex' }}>
+                <input
+                  type="radio"
+                  id="thumb"
+                  name="renderer"
+                  onClick={() => store.set({ renderer: 'thumbnail' })}
+                  checked={store.state.renderer === 'thumbnail'}
+                />
+                <label htmlFor="thumb">
+                  {ThumbnailRenderer({
+                    onClick: () => {
+                      /**/
+                    },
+                    search: '',
+                    selected: false,
+                    item: flatData[0]
+                  })}
+                </label>
+              </div>
+              <br />
+              <div style={{ display: 'flex' }}>
+                <input
+                  type="radio"
+                  id="thumb"
+                  name="renderer"
+                  onClick={() => store.set({ renderer: undefined })}
+                  checked={store.state.renderer === undefined}
+                />
+                <label htmlFor="thumb"> Default renderer </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      )
+    })
   )
   .add(
     'Relational List',
