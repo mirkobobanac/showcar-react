@@ -10,7 +10,6 @@ export type CustomeRenderer<T> = (
   props: {
     item: IPlainItem<T>
     onClick: () => void
-    // onMouseEnter: () => void,
     selected: boolean
     search: string | null
   }
