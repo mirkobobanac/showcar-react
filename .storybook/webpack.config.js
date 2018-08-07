@@ -53,5 +53,9 @@ module.exports = (baseConfig, env, config) => {
 
   config.plugins.push(new TSDocgenPlugin()) // optional
   config.resolve.extensions.push('.ts', '.tsx')
+  config.resolve.alias = {
+    fs: 'memfs'
+  }
+
   return config
 }

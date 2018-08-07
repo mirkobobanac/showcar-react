@@ -1,11 +1,14 @@
+import FlatListCustomRenderersSource from '!raw-loader!./FlatListCustomRenderers'
 import { withState } from '@dump247/storybook-state'
 import { action } from '@storybook/addon-actions'
 import { withInfo } from '@storybook/addon-info'
 import { boolean, number, text, withKnobs } from '@storybook/addon-knobs'
 import { addDecorator, storiesOf } from '@storybook/react'
+import { promises } from 'fs'
 import React from 'react'
 import { Autocomplete } from '../../src/components/autocomplete/Autocomplete'
 import PlainList, { CustomeRenderer, IPlainItem } from '../../src/components/autocomplete/datatypes/PlainList'
+import { parse } from '../markdown/AstExtractor'
 import Markdown from '../markdown/Markdown'
 import { flat as flatData, group as groupData, relational as relationalData } from './data'
 import { IconizedRenderer, ThumbnailRenderer } from './FlatListCustomRenderers'
@@ -43,6 +46,15 @@ storiesOf('Core|Organisms/Autocomplete', module)
       }
       return (
         <div>
+          TYPEDEF HERE:
+          {console.log(FlatListCustomRenderersSource.slice(180, 476))}
+          {console.log('SOMETHING', parse(FlatListCustomRenderersSource).then(x => console.log(x)))}
+          <Markdown>
+            {`
+\`\`\`ts
+${FlatListCustomRenderersSource}
+\`\`\``}
+          </Markdown>
           <Markdown>{`## Custom Flat list \n > Flat list of items w/ customized renderer`}</Markdown>
           <div style={{ display: 'flex' }}>
             <div style={{ width: '100%', maxWidth: '500px', marginRight: '2em' }}>
