@@ -26,7 +26,8 @@
   },
   "dependencies": {
     "@types/node": "^10.5.2",
-    "docsify-cli": "^4.2.1"
+    "docsify-cli": "^4.2.1",
+    "jest-raw-loader": "^1.0.1"
   },
   "devDependencies": {
     "@dump247/storybook-state": "^1.5.0",
@@ -65,6 +66,7 @@
     "jest": "^23.4.2",
     "node-sass": "^4.9.2",
     "prettier": "^1.13.7",
+    "raw-loader": "^0.5.1",
     "react": "^16.4.1",
     "react-docgen-typescript-webpack-plugin": "^1.1.0",
     "react-dom": "^16.4.1",
@@ -108,7 +110,8 @@
     },
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
-      "\\.(css|less|scss)$": "<rootDir>/__mocks__/styleMock.js"      
+      "\\.(css|less|scss)$": "<rootDir>/__mocks__/styleMock.js",
+      "^!raw-loader!.*$": "<rootDir>/__mocks__/styleMock.js"
     },
     "transform": {
       ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js",

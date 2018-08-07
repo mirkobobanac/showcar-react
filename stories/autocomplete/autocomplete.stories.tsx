@@ -1,3 +1,4 @@
+import FlatListCustomRenderersSource from '!raw-loader!./FlatListCustomRenderers'
 import { withState } from '@dump247/storybook-state'
 import { action } from '@storybook/addon-actions'
 import { withInfo } from '@storybook/addon-info'
@@ -43,6 +44,12 @@ storiesOf('Core|Organisms/Autocomplete', module)
       }
       return (
         <div>
+          <Markdown>
+            {`
+\`\`\`ts
+${FlatListCustomRenderersSource}
+\`\`\``}
+          </Markdown>
           <Markdown>{`## Custom Flat list \n > Flat list of items w/ customized renderer`}</Markdown>
           <div style={{ display: 'flex' }}>
             <div style={{ width: '100%', maxWidth: '500px', marginRight: '2em' }}>
