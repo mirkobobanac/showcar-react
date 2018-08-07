@@ -1,7 +1,7 @@
 import React from 'react'
 
-import 'github-markdown-css'
 import ReactMarkdown from 'react-markdown'
+import '../../node_modules/github-markdown-css/github-markdown.css' // include css instead of regular JS include because Jest breaks otherwise
 
 /**
  * Markdown wrapper that includes github-markdown styles
