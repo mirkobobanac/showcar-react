@@ -3,9 +3,11 @@ import { action } from '@storybook/addon-actions'
 import { withInfo } from '@storybook/addon-info'
 import { boolean, number, text, withKnobs } from '@storybook/addon-knobs'
 import { addDecorator, storiesOf } from '@storybook/react'
+import 'github-markdown-css'
 import React from 'react'
 import { Autocomplete } from '../../src/components/autocomplete/Autocomplete'
 import PlainList, { CustomeRenderer, IPlainItem } from '../../src/components/autocomplete/datatypes/PlainList'
+import Markdown from '../markdown/Markdown'
 import { flat as flatData, group as groupData, relational as relationalData } from './data'
 import { IconizedRenderer, ThumbnailRenderer } from './FlatListCustomRenderers'
 
@@ -15,11 +17,7 @@ storiesOf('Core|Organisms/Autocomplete', module)
     'Flat List',
     withState({ selected: null as any }, store => (
       <div>
-        <h4 className="sc-font-l">Plain list</h4>
-        <blockquote>
-          Flat list of items<br />
-          <br />
-        </blockquote>
+        <Markdown>{`## Flat list \n > Show items all in the same level`}</Markdown>
         <Autocomplete
           source={props.source}
           selected={store.state.selected}
@@ -46,11 +44,7 @@ storiesOf('Core|Organisms/Autocomplete', module)
       }
       return (
         <div>
-          <h4 className="sc-font-l">Flat Custom list</h4>
-          <blockquote>
-            Flat list of items w/ customized renderer<br />
-            <br />
-          </blockquote>
+          <Markdown>{`## Custom Flat list \n > Flat list of items w/ customized renderer`}</Markdown>
           <div style={{ display: 'flex' }}>
             <div style={{ width: '100%', maxWidth: '500px', marginRight: '2em' }}>
               <Autocomplete
@@ -70,11 +64,31 @@ storiesOf('Core|Organisms/Autocomplete', module)
                 errorMessage={text('errorMessage', 'no matches for term')}
                 hideArrow={boolean('hideArrow', false)}
               />
+              <br />
+              <div className="well">
+                <Markdown>
+                  {`
+#### Renderer: 
+
+You can provide a custom renderer that will be used to render each of the items in the list. 
+The custom renderer is a JSX Element with the following props
+\`\`\`ts
+export type CustomeRenderer<T> = (
+  props: {
+    item: {
+      id: T
+      label: string
+    }
+    onClick: () => void
+    selected: boolean
+    search: string | null
+  }
+) => JSX.Element
+\`\`\``}
+                </Markdown>
+              </div>
             </div>
-            <div>
-              Renderer: You can provide a custom renderer that will be used to render each of the items in the list.
-              <br />
-              <br />
+            <div className="well">
               <div style={{ display: 'flex' }}>
                 <input
                   type="radio"
