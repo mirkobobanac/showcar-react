@@ -1,5 +1,6 @@
-const path = require('path')
 const TSDocgenPlugin = require('react-docgen-typescript-webpack-plugin')
+import { transformer as sourceCodeExtractorTransformer } from '../src/ast/sourceCodeExtractor'
+import * as weblog from 'webpack-log'
 
 const polyfills = {
   /**
@@ -18,6 +19,11 @@ module.exports = (baseConfig, env, config) => {
   config.module.rules.push({
     test: /\.(ts|tsx)$/,
     loaders: require.resolve('awesome-typescript-loader')
+    // options: {
+    //   getCustomTransformers: program => ({
+    //     before: [sourceCodeExtractorTransformer(program, weblog({ name: 'sce' }))]
+    //   })
+    // }
   })
 
   config.module.rules.push({
