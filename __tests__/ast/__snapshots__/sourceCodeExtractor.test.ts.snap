@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`source code extraction extracts some React component from a source code file 1`] = `
+"
+
+/**
+ * Some React component
+ */
+const SomeSFC = (p: Props) => (
+  <div>
+    {p.foo}
+  </div>
+)"
+`;
+
+exports[`source code extraction extracts types aliases from a source code file 1`] = `
+"
+type MyType = {
+  foo: boolean
+}
+
+/**
+ * Some type declaration
+ */
+type Props = {
+  /**
+   * Some type comment
+   */
+  foo: number
+}"
+`;

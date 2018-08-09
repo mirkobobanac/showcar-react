@@ -1,44 +1,48 @@
-import * as ts from 'typescript'
+import ts from 'typescript'
 
-const printer = ts.createPrinter({
-  newLine: ts.NewLineKind.LineFeed
-})
+type ExtractBlock = {
+  kind: ts.SyntaxKind // what kind of element this is (function/type declaration etc)
+  value: string
+}
 
-// /**
-//  * Parses the given source into an anonymous File resource.
-//  * Mainly used to parse source code of a document.
-//  *
-//  * @param {string} source
-//  * @param {ScriptKind} [scriptKind=ScriptKind.TS]
-//  * @returns {Promise<File>}
-//  *
-//  * @memberof TsResourceParser
-//  */
-// const parseSource = async source => {
-//   return ts.createSourceFile('inline.tsx', source, ts.ScriptTarget.ES2015, true)
-// }
+/**
+ * Extracts source code blocks from a given typescript source string via typescript compiler AST analysis
+ */
+const sourceCodeExtrator = (source: string, extractBlocks: ExtractBlock[]) => {
+  const { sourceFile: sourceAst, program } = createSourceFile(source)
 
-// const typedef = source => {
-//   return parseSource(source)
-//     .then(console.log)
-//     .toString()
-// }
+  return sourceAst.statements
+    .filter(statement => {
+      return extractBlocks.some(block => {
+        if (statement.kind !== block.kind) {
+          return false
+        }
 
-// module.exports = async function yearsInMs(filename) {
-//   // const parser = new TypescriptParser()
-//   // const parsed = await parser.parseFile(filename, 'workspace root')
-//   console.log('THE FILENAME OPTIONS PASSED ARE:', filename)
-//   return { code: filename.toString() } //
-// }
+        // TODO: Improve extraction logic
 
-// const parser = new TypescriptParser()
+        // variable statement matching
+        if (ts.isVariableStatement(statement)) {
+          return (
+            source
+              .slice(statement.pos, statement.end)
+              .split('=')[0]
+              .indexOf(block.value) !== -1 // cant find way to get function name from AST
+          )
+        }
 
-// export const parse = async (source: string) => {
-//   const parsed = await parser.parseSource(source)
-//   return parsed
-// }
+        // Type aliases and other identifiers that have names
+        if ((statement as any).name !== undefined && (statement as any).name.escapedText !== undefined) {
+          return (statement as any).name.escapedText === block.value
+        }
 
-export function createSourceFile(
+        return false
+      })
+    })
+    .map(statement => source.slice(statement.pos, statement.end))
+    .join('')
+}
+
+function createSourceFile(
   code: string,
   scriptTarget: ts.ScriptTarget = ts.ScriptTarget.ES2015,
   scriptKind: ts.ScriptKind = ts.ScriptKind.TSX
@@ -101,3 +105,5 @@ function getExtension(scriptKind: ts.ScriptKind) {
       throw new Error(`Not implemented ScriptKind: ${ts.ScriptKind[scriptKind]}`)
   }
 }
+
+export default sourceCodeExtrator
