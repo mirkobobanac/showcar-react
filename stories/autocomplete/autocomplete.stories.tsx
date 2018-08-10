@@ -1,3 +1,4 @@
+import FlatListCustomRenderersSource from '!raw-loader!./FlatListCustomRenderers'
 import { withState } from '@dump247/storybook-state'
 import { action } from '@storybook/addon-actions'
 import { withInfo } from '@storybook/addon-info'
