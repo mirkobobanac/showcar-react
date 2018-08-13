@@ -1,13 +1,18 @@
-import FlatListCustomRenderersSource from '!raw-loader!./FlatListCustomRenderers'
+// tslint:disable:no-submodule-imports
+import suggestionItemSource from '!raw-loader!../../src/components/autocomplete/components/SuggestionItem'
+import plainListSource from '!raw-loader!../../src/components/autocomplete/datatypes/PlainList'
+import flatListCustomRenderersSource from '!raw-loader!./FlatListCustomRenderers'
 import { withState } from '@dump247/storybook-state'
 import { action } from '@storybook/addon-actions'
 import { withInfo } from '@storybook/addon-info'
 import { boolean, number, text, withKnobs } from '@storybook/addon-knobs'
 import { addDecorator, storiesOf } from '@storybook/react'
 import React from 'react'
+import ts from 'typescript'
+import sourceCodeExtractor from '../../src/ast/sourceCodeExtractor'
 import { Autocomplete } from '../../src/components/autocomplete/Autocomplete'
 import PlainList, { CustomeRenderer, IPlainItem } from '../../src/components/autocomplete/datatypes/PlainList'
-import Markdown from '../markdown/Markdown'
+import Markdown, { stripIndent } from '../markdown/Markdown'
 import { flat as flatData, group as groupData, relational as relationalData } from './data'
 import { IconizedRenderer, ThumbnailRenderer } from './FlatListCustomRenderers'
 
@@ -17,7 +22,10 @@ storiesOf('Core|Organisms/Autocomplete', module)
     'Flat List',
     withState({ selected: null as any }, store => (
       <div>
-        <Markdown>{`## Flat list \n > Show items all in the same level`}</Markdown>
+        <Markdown>{stripIndent`
+          ## Flat list
+          > Show items all in the same level
+        `}</Markdown>
         <Autocomplete
           source={props.source}
           selected={store.state.selected}
@@ -73,29 +81,34 @@ storiesOf('Core|Organisms/Autocomplete', module)
 You can provide a custom renderer that will be used to render each of the items in the list. 
 The custom renderer is a JSX Element with the following props
 \`\`\`ts
-export type CustomeRenderer<T> = (
-  props: {
-    item: {
-      id: T
-      label: string
-    }
-    onClick: () => void
-    selected: boolean
-    search: string | null
-  }
-) => JSX.Element
+${sourceCodeExtractor(plainListSource, [
+                    {
+                      kind: ts.SyntaxKind.TypeAliasDeclaration,
+                      value: 'CustomeRenderer'
+                    },
+                    {
+                      kind: ts.SyntaxKind.TypeAliasDeclaration,
+                      value: 'IPlainItem'
+                    }
+                  ])}
 \`\`\``}
                 </Markdown>
               </div>
             </div>
-            <div className="well">
-              <div style={{ display: 'flex' }}>
+            <div className="well" style={{ flexGrow: 1 }}>
+              <div
+                style={{
+                  display: 'flex',
+                  alignItems: 'center'
+                }}
+              >
                 <input
                   type="radio"
                   id="icon"
                   name="renderer"
                   checked={store.state.renderer === 'icon'}
                   onClick={() => store.set({ renderer: 'icon' })}
+                  style={{ marginRight: '1em' }}
                 />
                 <label htmlFor="icon">
                   {IconizedRenderer({
@@ -109,13 +122,14 @@ export type CustomeRenderer<T> = (
                 </label>
               </div>
               <br />
-              <div style={{ display: 'flex' }}>
+              <div style={{ display: 'flex', alignItems: 'center' }}>
                 <input
                   type="radio"
                   id="thumb"
                   name="renderer"
                   onClick={() => store.set({ renderer: 'thumbnail' })}
                   checked={store.state.renderer === 'thumbnail'}
+                  style={{ marginRight: '1em' }}
                 />
                 <label htmlFor="thumb">
                   {ThumbnailRenderer({
@@ -129,16 +143,36 @@ export type CustomeRenderer<T> = (
                 </label>
               </div>
               <br />
-              <div style={{ display: 'flex' }}>
+              <div style={{ display: 'flex', alignItems: 'center' }}>
                 <input
                   type="radio"
                   id="thumb"
                   name="renderer"
                   onClick={() => store.set({ renderer: undefined })}
                   checked={store.state.renderer === undefined}
+                  style={{ marginRight: '1em' }}
                 />
                 <label htmlFor="thumb"> Default renderer </label>
               </div>
+
+              <hr />
+              <Markdown style={{ maxHeight: '300px', overflowY: 'auto' }}>
+                {stripIndent`
+#### Code: 
+\`\`\`jsx
+${sourceCodeExtractor(store.state.renderer === undefined ? suggestionItemSource : flatListCustomRenderersSource, [
+                  {
+                    kind: ts.SyntaxKind.VariableStatement,
+                    value:
+                      store.state.renderer === 'icon'
+                        ? 'IconizedRenderer'
+                        : store.state.renderer === 'thumbnail'
+                          ? 'ThumbnailRenderer'
+                          : 'SuggestionItem'
+                  }
+                ])}
+\`\`\``}
+              </Markdown>
             </div>
           </div>
         </div>

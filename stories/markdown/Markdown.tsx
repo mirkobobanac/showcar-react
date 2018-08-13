@@ -1,5 +1,6 @@
+export { stripIndent } from 'common-tags'
 import hljs from 'highlight.js'
-import React from 'react'
+import React, { CSSProperties } from 'react'
 import ReactMarkdown from 'react-markdown'
 
 import '../../node_modules/github-markdown-css/github-markdown.css' // include css instead of regular JS include because Jest breaks otherwise
@@ -8,8 +9,8 @@ import '../../node_modules/highlight.js/styles/github.css' // github code style 
 /**
  * Markdown wrapper that includes github-markdown styles
  */
-const Markdown: React.SFC<ReactMarkdown.ReactMarkdownProps> = props => (
-  <div className="markdown-body">
+const Markdown: React.SFC<ReactMarkdown.ReactMarkdownProps & { style?: CSSProperties }> = props => (
+  <div className="markdown-body" style={props.style}>
     <ReactMarkdown {...props} renderers={{ code: CodeBlock }}>
       {props.children}
     </ReactMarkdown>
