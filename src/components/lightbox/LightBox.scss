@@ -1,0 +1,137 @@
+@import "../../../node_modules/showcar-ui/src/01-settings/variables";
+@import "../../../node_modules/showcar-ui/src/02-sass-tools/sass-mq";
+
+.react-light-box {
+  &__container {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: $form-border-radius;
+    background-color: $white;
+    padding: $XL 0;
+    z-index: 140; // overlay header
+    max-height: calc(100vh - 80px);
+
+    @include mqmin(582px) {
+      width: 550px;
+    }
+
+    @include mqmax(582px - 1) {
+      width: calc(100% - 32px);
+      max-height: calc(100vh - 120px);
+    }
+
+    h5 {
+      padding-right: 25px;
+    }
+
+    overflow-y: hidden !important;
+
+    // Check more styles https://github.com/Scout24/showcar-ui/.../src/06-components/molecules/notification/notification.scss
+
+    &__message {
+      display: block;
+      width: 100%;
+      transition: max-height 0.5s ease-in;
+      max-height: 320px;
+      z-index: 120; // overlays ads
+      overflow: hidden;
+      position: absolute;
+      margin-top: -20px;
+      padding: 20px;
+
+      &-success {
+        color: $color-success;
+        border-bottom: 1px solid $color-success;
+        background-color: $color-success-message;
+      }
+
+      &-error {
+        color: $color-error;
+        border-bottom: 1px solid $color-error;
+        background-color: $color-error-message;
+      }
+    }
+  }
+
+  &__container--visible {
+    display: flex;
+  }
+
+  &__content {
+    max-height: calc(100vh - 120px);
+    overflow: auto;
+    padding: 0 $XXL;
+    position: relative;
+    flex: 1;
+  }
+
+  &__close {
+    height: 32px;
+    width: 32px;
+    line-height: $XL;
+    padding: $S;
+    display: inline-block;
+    position: absolute;
+    top: $L;
+    right: $L;
+    background: $white;
+    border: 1px solid $black-30;
+    cursor: pointer;
+    border-radius: $XS;
+    transition: border-color .2s;
+    z-index: 1;
+
+    as24-icon {
+      pointer-events: none;
+    }
+    svg {
+      transition: fill .2s;
+      fill: $black-60;
+      width: $M;
+      height: $M;
+    }
+    &:hover {
+      border-color: $black-90;
+      svg {
+        fill: $black-90;
+      }
+    }
+  }
+
+  &__overlay {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 139; // less than modal window by one
+    opacity: 0;
+    transition: opacity .1s ease;
+
+    &--visible {
+      display: block;
+    }
+  }
+
+  &--fadein {
+    opacity: 1;
+  }
+
+  &__spinner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, .4);
+  }
+}

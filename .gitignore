@@ -7,3 +7,4 @@ dist
 .rpt2_cache/
 .jest-test-results.json
 coverage
+.idea
