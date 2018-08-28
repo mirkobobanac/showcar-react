@@ -4,14 +4,41 @@ import './LightBox.scss'
 export type LightBoxResultType = 'error' | 'success'
 
 interface ILightBoxProps {
-  isShow?: boolean
+  /**
+   * Control displaying of LightBox by external attribute
+   */
+  isShow: boolean
+  /**
+   *  Class Name to be used for whole LighBox content with close button and messages (top level)
+   */
   className?: string
+  /**
+   *  Class Name to be used as replacement for "react-light-box__content"
+   */
   contentClassName?: string
+  /**
+   * Flag to enable loging indicator within LightBox (so far you could close LigbBox by clicking outside)
+   */
   isLoading?: boolean
+  /**
+   * Add child components
+   */
   children?: any
+  /**
+   * Flag to disable closign by clicking outside
+   */
   ignoreOverlayClickClose?: boolean
+  /**
+   * Triggered for close icon clicks and outside clicks
+   */
   onClose?: () => void
+  /**
+   * Displayed resulting message 
+   */
   resultMessage?: string
+  /**
+   * TYpe of resulting message to display
+   */
   resultType?: LightBoxResultType
 }
 
