@@ -46,7 +46,7 @@ interface ILightBoxState {
   isLoading: boolean
 }
 
-export class LightBox extends React.Component<ILightBoxProps, ILightBoxState> {
+export class LightBoxClass extends React.Component<ILightBoxProps, ILightBoxState> {
   public state: ILightBoxState = {
     isLoading: this.props.isLoading || false
   }
@@ -117,4 +117,4 @@ export class LightBox extends React.Component<ILightBoxProps, ILightBoxState> {
   }
 }
 
-export default LightBox
+export const LightBox = LightBoxClass
