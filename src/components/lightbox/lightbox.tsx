@@ -1,13 +1,13 @@
-import * as React from 'react';
-import './LightBox.scss'
+import * as React from 'react'
+import './lightbox.scss'
 
-export type LightBoxResultType = 'error' | 'success'
+export type LightboxResultType = 'error' | 'success'
 
-interface ILightBoxProps {
+interface ILightboxProps {
   /**
-   * Control displaying of LightBox by external attribute
+   * Control displaying of Lightbox by external attribute
    */
-  isShow: boolean
+  shown: boolean
   /**
    *  Class Name to be used for whole LighBox content with close button and messages (top level)
    */
@@ -17,15 +17,11 @@ interface ILightBoxProps {
    */
   contentClassName?: string
   /**
-   * Flag to enable loging indicator within LightBox (so far you could close LigbBox by clicking outside)
+   * Flag to enable loading indicator within Lightbox (so far you could close LigbBox by clicking outside)
    */
   isLoading?: boolean
   /**
-   * Add child components
-   */
-  children?: any
-  /**
-   * Flag to disable closign by clicking outside
+   * Flag to disable closing by clicking outside
    */
   ignoreOverlayClickClose?: boolean
   /**
@@ -33,88 +29,80 @@ interface ILightBoxProps {
    */
   onClose?: () => void
   /**
-   * Displayed resulting message 
+   * Displayed resulting message
    */
   resultMessage?: string
   /**
    * TYpe of resulting message to display
    */
-  resultType?: LightBoxResultType
+  resultType?: LightboxResultType
 }
 
-interface ILightBoxState {
+interface ILightboxState {
   isLoading: boolean
 }
 
-export class LightBoxClass extends React.Component<ILightBoxProps, ILightBoxState> {
-  public state: ILightBoxState = {
+export class LightboxClass extends React.Component<ILightboxProps, ILightboxState> {
+  public state: ILightboxState = {
     isLoading: this.props.isLoading || false
   }
 
   public render() {
     const { isLoading } = this.state
-    const { children, isShow, className, contentClassName, resultMessage } = this.props;
-    let { resultType } = this.props;
+    const { children, shown, className, contentClassName, resultMessage } = this.props
+    let { resultType } = this.props
 
-    resultType = resultType || 'success';
+    resultType = resultType || 'success'
 
-    const closeLightBox = this.closeLightBox.bind(this);
-    const overlayCloseLightBox = this.overlayCloseLightBox.bind(this);
-
-    if (!isShow) {
-      return null;
-    }
-
-    return (
+    return shown ? (
       <div
         className="react-light-box__overlay react-light-box__overlay--visible react-light-box--fadein"
-        onClick={overlayCloseLightBox}
+        onClick={e => this.overlayCloseLightbox(e)}
       >
         <div className={className || ''}>
           <div className="react-light-box__container react-light-box__container--visible ">
             {resultMessage ? (
-              <div
-                className={"react-light-box__container__message react-light-box__container__message-" + resultType}>
+              <div className={'react-light-box__container__message react-light-box__container__message-' + resultType}>
                 <span className="sc-font-m sc-font-bold">{resultMessage}</span>
               </div>
             ) : null}
             {isLoading && (
               <div className="react-light-box__spinner">
-                <div className="sc-spinner-loading orange"/>
+                <div className="sc-spinner-loading orange" />
               </div>
             )}
-            <button className="react-light-box__close" onClick={closeLightBox}>
-              <as24-icon type="close"/>
+            <button className="react-light-box__close" onClick={e => this.closeLightbox(e)}>
+              <as24-icon type="close" />
             </button>
             <div className={contentClassName || 'react-light-box__content'}>{children}</div>
           </div>
         </div>
       </div>
-    )
+    ) : null
   }
 
-  public componentWillReceiveProps(nextProps: Readonly<ILightBoxProps>) {
+  public componentWillReceiveProps(nextProps: Readonly<ILightboxProps>) {
     this.setState({
       isLoading: nextProps.isLoading || false
     })
   }
 
-  private closeLightBox(e: any) {
+  private closeLightbox(e: any) {
     // ensure click on target element only. Overlay capture all internal clicks !
     if (e.target === e.currentTarget) {
-      e.preventDefault();
-      e.stopPropagation();
-      if(this.props.onClose) {
-        this.props.onClose();
+      e.preventDefault()
+      e.stopPropagation()
+      if (this.props.onClose) {
+        this.props.onClose()
       }
     }
   }
 
-  private overlayCloseLightBox(e: any) {
+  private overlayCloseLightbox(e: any) {
     if (!this.props.ignoreOverlayClickClose) {
-      this.closeLightBox(e);
+      this.closeLightbox(e)
     }
   }
 }
 
-export const LightBox = LightBoxClass
+export const Lightbox = LightboxClass

@@ -1,80 +1,103 @@
 import { withInfo } from '@storybook/addon-info'
 import { select, text, withKnobs } from '@storybook/addon-knobs'
-import { addDecorator, storiesOf } from '@storybook/react'
+import { storiesOf } from '@storybook/react'
 import React from 'react'
-import { LightBox } from '../src/components/lightbox/LightBox'
+import { Lightbox } from '../src/components/lightbox/Lightbox'
 import { Button } from '../src/components/button/Button'
 import { withState } from '@dump247/storybook-state'
 import Markdown, { stripIndent } from './markdown/Markdown'
 
 const Placeholder = <div style={{ height: 200 }}>Content</div>
 
-storiesOf('Core|Organisms/LightBox', module)
+storiesOf('Core|Organisms/Lightbox', module)
   .addDecorator(withKnobs)
   .add('component', () => (
     <Markdown>{stripIndent`
           ## Will all properties
 
           \`\`\`ts
-          <LightBox
-            isShow={true}
+          <Lightbox
+            shown={true}
             className="my-class-name"
             contentClassName="my-content-class-name"
             isLoading={false}
             ignoreOverlayClickClose={false}
             resultMessage="Success Message"
             resultType="success"
-            onClose={() => {/* handler */}} >Content</LightBox>
+            onClose={() => {/* handler */}} >Content</Lightbox>
           \`\`\`
 
           ## Minimal set
           \`\`\`ts
-          <LightBox isShow={false}>Content</LightBox>
+          <Lightbox shown={false}>Content</Lightbox>
           \`\`\`
         `}</Markdown>
   ))
-  .add('resultMessage', withState({ isShow: false }, store => (
-    <>
-      <Button type="bob" onClick={() => store.set({ isShow: true })}>Show LightBox</Button>
-      <LightBox
-        isShow={store.state.isShow}
-        resultMessage={text("resultMessage", "I am resulting message selected type")}
-        resultType={select('resultType', {
-          error: "Error message",
-          success: "Sucess message"
-        }, 'success')}
-        onClose={() => store.set({ isShow: false })}
-      >{Placeholder}</LightBox>
-    </>
-  )))
-  .add('isShow', withState({ isShow: false }, store => (
-    <>
-      <Button type="bob" onClick={() => store.set({ isShow: true })}>Show LightBox</Button>
-      <LightBox
-        isShow={store.state.isShow}
-        onClose={() => store.set({ isShow: false })}
-      >Content</LightBox>
-    </>
-  )))
-  .add('isLoading', withState({ isShow: false }, store => (
-    <>
-      <Button type="bob" onClick={() => store.set({ isShow: true })}>Show LightBox with loadins state</Button>
-      <LightBox
-        isShow={store.state.isShow}
-        isLoading={true}
-        onClose={() => store.set({ isShow: false })}
-      >{Placeholder}</LightBox>
-    </>
-  )))
-  .add('ignoreOverlayClickClose', withState({ isShow: false }, store => (
-    <>
-      <Button type="bob" onClick={() => store.set({ isShow: true })}>Show LightBox and close only using close button</Button>
-      <LightBox
-        isShow={store.state.isShow}
-        ignoreOverlayClickClose={true}
-        onClose={() => store.set({ isShow: false })}
-      >Content</LightBox>
-    </>
-  )))
-  .addDecorator(withInfo({ inline: true, header: false, source: false })(() => <LightBox isShow={false}>Content</LightBox>))
+  .add(
+    'resultMessage',
+    withState({ shown: false }, store => (
+      <>
+        <Button type="bob" onClick={() => store.set({ shown: true })}>
+          Show Lightbox
+        </Button>
+        <Lightbox
+          shown={store.state.shown}
+          resultMessage={text('resultMessage', 'I am resulting message selected type')}
+          resultType={select(
+            'resultType',
+            {
+              error: 'Error message',
+              success: 'Sucess message'
+            },
+            'success'
+          )}
+          onClose={() => store.set({ shown: false })}
+        >
+          {Placeholder}
+        </Lightbox>
+      </>
+    ))
+  )
+  .add(
+    'shown',
+    withState({ shown: false }, store => (
+      <>
+        <Button type="bob" onClick={() => store.set({ shown: true })}>
+          Show Lightbox
+        </Button>
+        <Lightbox shown={store.state.shown} onClose={() => store.set({ shown: false })}>
+          Content
+        </Lightbox>
+      </>
+    ))
+  )
+  .add(
+    'isLoading',
+    withState({ shown: false }, store => (
+      <>
+        <Button type="bob" onClick={() => store.set({ shown: true })}>
+          Show Lightbox with loadins state
+        </Button>
+        <Lightbox shown={store.state.shown} isLoading={true} onClose={() => store.set({ shown: false })}>
+          {Placeholder}
+        </Lightbox>
+      </>
+    ))
+  )
+  .add(
+    'ignoreOverlayClickClose',
+    withState({ shown: false }, store => (
+      <>
+        <Button type="bob" onClick={() => store.set({ shown: true })}>
+          Show Lightbox and close only using close button
+        </Button>
+        <Lightbox shown={store.state.shown} ignoreOverlayClickClose={true} onClose={() => store.set({ shown: false })}>
+          Content
+        </Lightbox>
+      </>
+    ))
+  )
+  .addDecorator(
+    withInfo({ inline: true, header: false, source: false })(() => <Lightbox shown={false}>Content</Lightbox>)
+  )
   .add('usage', () => <div />)

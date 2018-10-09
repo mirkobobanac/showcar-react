@@ -1,5 +1,5 @@
-@import "../../../node_modules/showcar-ui/src/01-settings/variables";
-@import "../../../node_modules/showcar-ui/src/02-sass-tools/sass-mq";
+@import '../../../node_modules/showcar-ui/src/01-settings/variables';
+@import '../../../node_modules/showcar-ui/src/02-sass-tools/sass-mq';
 
 .react-light-box {
   &__container {
@@ -81,14 +81,14 @@
     border: 1px solid $black-30;
     cursor: pointer;
     border-radius: $XS;
-    transition: border-color .2s;
+    transition: border-color 0.2s;
     z-index: 1;
 
     as24-icon {
       pointer-events: none;
     }
     svg {
-      transition: fill .2s;
+      transition: fill 0.2s;
       fill: $black-60;
       width: $M;
       height: $M;
@@ -111,7 +111,7 @@
     bottom: 0;
     z-index: 139; // less than modal window by one
     opacity: 0;
-    transition: opacity .1s ease;
+    transition: opacity 0.1s ease;
 
     &--visible {
       display: block;
@@ -132,6 +132,6 @@
     justify-content: center;
     align-items: center;
     z-index: 2;
-    background-color: rgba(255, 255, 255, .4);
+    background-color: rgba(255, 255, 255, 0.4);
   }
 }
