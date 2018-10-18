@@ -1,0 +1,154 @@
+@import '../../../node_modules/showcar-ui/src/01-settings/variables';
+
+input[type='checkbox'] {
+  &.sc-input {
+    padding: 8px 8px 8px 0;
+
+    & + label {
+      &:before {
+        border-radius: $form-border-radius;
+      }
+    }
+
+    &:checked + label:before {
+      background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%2226%22%20viewBox%3D%220%200%2026%2026%22%20width%3D%2226%22%3E%3Cstyle%20id%3D%22style3%22%20type%3D%22text%2Fcss%22%3E.st0%7Bfill%3A%23333333%3B%7D%3C%2Fstyle%3E%3Cpath%20id%3D%22polygon7%22%20class%3D%22st0%22%20d%3D%22M18.8%206.8l-7.9%207.8-3.8-3.7L5%2013l6%206L21%209z%22%2F%3E%3C%2Fsvg%3E');
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+.sc-toggle-checkbox {
+  display: inline-block;
+  opacity: 0;
+  position: absolute;
+  + label.sc-toggle {
+    background: $black-60;
+    as24-icon {
+      opacity: 0;
+      transition: all 250ms ease-in 200ms;
+    }
+  }
+
+  &:hover {
+    + label.sc-toggle {
+      background-color: $black-80;
+    }
+  }
+
+  &:focus:enabled + label.sc-toggle {
+    box-shadow: inset 0 0 0 2px $blue-80;
+  }
+
+  &:active {
+    + label.sc-toggle {
+      background-color: $black-90;
+    }
+  }
+
+  &:disabled + label.sc-toggle {
+    background-color: $black-30;
+    cursor: not-allowed;
+  }
+
+  &:checked {
+    + label.sc-toggle {
+      background: $color-link;
+      as24-icon {
+        opacity: 1;
+      }
+
+      .sc-toggle-background {
+        transform: translate(25px, 0);
+      }
+    }
+
+    &:hover {
+      + label.sc-toggle {
+        background-color: $blue-90;
+        as24-icon svg {
+          fill: $blue-90;
+          stroke: $blue-90;
+          transition: all 100ms ease-in 100ms;
+        }
+      }
+    }
+
+    &:active {
+      + label.sc-toggle {
+        background-color: $blue-100;
+      }
+    }
+
+    &:focus {
+      + label.sc-toggle {
+        box-shadow: inset 0 0 0 2px $blue-100;
+      }
+    }
+
+    &:disabled {
+      + label.sc-toggle {
+        background-color: $blue-30;
+        as24-icon svg {
+          fill: $blue-30;
+          stroke: $blue-30;
+        }
+      }
+    }
+  }
+}
+
+.sc-toggle {
+  transition: all 300ms;
+  display: inline-block;
+  height: 23px;
+  width: 48px;
+  background-color: $black-60;
+  border-radius: 11.5px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:focus {
+    box-shadow: inset 0 0 0 2px $blue-80;
+  }
+
+  as24-icon {
+    height: 19px;
+    width: 19px;
+    opacity: 0;
+
+    svg {
+      fill: #007cca;
+      stroke: #007cca;
+      stroke-width: 2px;
+      padding: $XS;
+    }
+  }
+
+  .sc-toggle-background {
+    margin: 2px 0 0 2px;
+    height: 19px;
+    width: 19px;
+    border-radius: 23px;
+    background: white;
+    transition: all 300ms;
+  }
+}
+
+.scr-toggle-loading {
+  background-color: #b8b8b8;
+  animation: pulse 2s ease infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #b8b8b8;
+  }
+  100% {
+    background-color: #7daac5;
+  }
+  50% {
+    background-color: #007cca;
+  }
+}
